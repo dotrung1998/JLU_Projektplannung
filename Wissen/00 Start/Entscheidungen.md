@@ -567,3 +567,24 @@ Po = 1 annehmen, weil beide Protokolle ähnlich abschneiden; die Zeile neu berec
 von C (78,3 / 87,0 / 91,7 / 97,5, [[Bewertung C - Begründungen]]), also Trung und nicht D.
 `b1` ist damit D; die Absprache „b1 = Trung, b2 = Dominik“ ist in der Zeile vertauscht.
 Außerdem ist die zweite Spalte nur mit N = 21 konsistent, C rechnet mit N = 23.
+
+## 2026-11-22 — κ aus den Einzelurteilen berechnet, N = 23 als gemeinsame Basis
+
+**Entscheidung.** Die vier IRR-Werte werden auf der Basis **N = 23** berichtet (Messplan:
+11 + 2 × 6; ein nicht besprochener Inhalt gilt in beiden Protokollen als nicht erfasst).
+Ds Schablonen A und B sind als Vault-Notizen übernommen; seine leeren Items 22–23 zählen
+nach dieser Regel als 0. Ergebnis: Vollständigkeit manuell κ = 0,21 (Po 65,2 %, N = 23),
+automatisch κ = 1,00 (Po 100 %, N = 23); Genauigkeit manuell κw = 0,06 (Po 58,3 %,
+Schnittmenge 12), automatisch κw = −0,07 (Po 92,5 %, Schnittmenge 20).
+
+**Grund.** κ braucht die gemeinsame Tabelle der Einzelurteile. Auf Ds Basis N = 21 ergäbe
+die Vollständigkeit manuell κ = 0,00, auf der Messplan-Basis 0,21; beide Zahlen werden
+offengelegt, statt eine zu wählen, die zur Vorgabe nicht passt. Der zweite Wert ist der
+berichtete, der erste steht als Sensitivität daneben.
+
+**Verworfen.** Ds N = 21 unkommentiert übernehmen; κ aus den Prozentwerten der Rohdatenzeile
+„überschlagen“; Items 22–23 aus beiden Schablonen streichen (sie sind Teil des Pflichtrasters).
+
+**Offen.** Ds Zustimmung zur Basis N = 23; warum seine Schablone B Item 8 automatisch mit 1
+bewertet, Schablone A es aber als nicht erfasst markiert (ändert κ nicht, Item 8 liegt
+nicht in der Schnittmenge).

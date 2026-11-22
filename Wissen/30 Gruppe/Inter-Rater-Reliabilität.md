@@ -81,10 +81,17 @@ Ungewichtet wäre κ = 0,50 — die Gewichtung belohnt die fast richtigen Einstu
 
 Beide URLs stehen auf dem Board der Sitzung 6 (Karte 19).
 
-## Stand 22.11.2026 — vier Werte noch offen
+## Stand 22.11.2026 — vier Werte berechnet
 
-Die acht Prozentwerte aus [[Rohdaten]] (Zeile 11) reichen **nicht** für κ: Sie sind
-Randverteilungen, κ braucht die gemeinsamen Einzelurteile. Arbeitsnotiz mit Rechnung,
-Rückrechnung auf Zähler und zwei Befunden (zweite Spalte nur mit N = 21 konsistent;
-`b2` enthält die Werte von C): `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
-Nötig sind **Ds Schablonen A und B**; danach sind die vier Werte in wenigen Minuten gesetzt.
+Aus den Einzelurteilen von C und D (Ds Schablonen liegen im Vault):
+
+| Variable | Protokoll | Po | N | κ |
+|---|---|---:|---:|---:|
+| Vollständigkeit | manuell | 65,2 % | 23 | 0,21 (fair) |
+| Vollständigkeit | automatisch | 100,0 % | 23 | 1,00 (almost perfect) |
+| Genauigkeit (gewichtet) | manuell | 58,3 % | 12 | 0,06 (slight) |
+| Genauigkeit (gewichtet) | automatisch | 92,5 % | 20 | −0,07 (poor) |
+
+Die acht Prozentwerte der Rohdatenzeile reichen dafür **nicht** (Randverteilungen ohne
+gemeinsame Zuordnung). Rechnung, 2×2-Tabellen und die N-Abweichung (D rechnete mit 21,
+der Messplan verlangt 23): `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.

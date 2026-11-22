@@ -59,10 +59,11 @@ Schätzung, keine Protokolländerung.
 **Montag 23.11. vor 12:00:** Rohdaten-Zeile prüfen; `b1 = Trung`, `b2 = Dominik`
 ([[Rohdaten]]).
 
-**IRR (22.11.):** Die vier κ-Werte für 3.2 sind **offen**; die acht Prozentwerte reichen
-nicht, Ds Einzelurteile fehlen. Rechnung, κ-Spannen und zwei Befunde (zweite Spalte mit
-N = 21 statt 23; `b2` enthält die Werte von C) in
-`06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
+**IRR (22.11.):** Die vier κ-Werte sind berechnet — Vollständigkeit manuell κ = 0,21
+(Po 65,2 %, N = 23), automatisch κ = 1,00 (Po 100 %, N = 23); Genauigkeit manuell
+κw = 0,06 (Po 58,3 %, N = 12), automatisch κw = −0,07 (Po 92,5 %, N = 20). Ds Schablonen
+liegen im Vault; die N-Abweichung (D rechnete mit 21) und der Textbaustein für 3.2 stehen
+in `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
 
 **Dienstag 24.11.:** eigene Fassung von Übungszettel 3.1 als PDF abgeben. Der Entwurf in
 `05_Woche` ist von Sebastian, nicht die eigene Abgabe; Inhalt übernehmen ist richtig, aber

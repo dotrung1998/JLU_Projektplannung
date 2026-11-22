@@ -116,7 +116,8 @@ eine Nachlieferung ist nicht nötig.
 ## Nach dem Eintragen
 
 - Screenshot oder Kopie der Zeile in `Wissen/90 Anhänge/` legen (Nachweis).
-- Vier IRR-Werte: **offen** — die acht Prozentwerte reichen nicht, Ds Einzelurteile
-  fehlen. Rechnung, Spannen und Befunde in
+- Vier IRR-Werte: **berechnet** — κ = 0,21 / 1,00 / 0,06 / −0,07 (Vollständigkeit manuell
+  und automatisch, Genauigkeit manuell und automatisch), jeweils mit Po und N. Rechnung
+  und die N-Abweichung (D: 21, Messplan: 23) in
   `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md` ([[Inter-Rater-Reliabilität]]).
 - Die Zeile ist die Datengrundlage für Übungszettel 3.2, Frage 1 und 2 ([[Sitzung 06]]).

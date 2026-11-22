@@ -68,9 +68,10 @@ für alle Gruppen und wird in Sitzung 7 zusammengeführt ([[Messplan]]).
   `Vollständigkeit in Prozent` ergänzt (manuell 18/23 = 78,3 %, automatisch 20/23 =
   87,0 %); DOCX und Lesefassung von A und B nach Dominiks Muster umbenannt. Skala Zufriedenheit:
   1–5 bestätigt; 45 %/70 % ohne Antwort offen.
-- 22.11.2026: Rohdaten-Zeile 11 von Katarina gilt unverändert (Gruppenentscheidung); die
-  vier IRR-Werte bleiben offen, weil acht Prozentwerte keine κ-Berechnung erlauben —
-  Rechnung und Befunde in `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
+- 22.11.2026: Rohdaten-Zeile 11 von Katarina gilt unverändert (Gruppenentscheidung);
+  die vier IRR-Werte sind aus Cs und Ds Einzelurteilen berechnet (κ = 0,21 / 1,00 / 0,06 /
+  −0,07 mit Po und N) — Rechnung, N-Abweichung und Textbaustein für 3.2 in
+  `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
 
 - 22.11.2026: Nod (n8n Labs) real getestet — Docker-Stack und Ollama liefen, aber
   Model-Check und Schedule sind für die Automation unbrauchbar (Erfolg ohne Ausführung);
