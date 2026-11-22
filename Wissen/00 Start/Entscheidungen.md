@@ -308,3 +308,77 @@ Repository würde sie veröffentlichen.
 **Verworfen.** Öffentliches Repository beibehalten und die betroffenen Dateien
 ausschließen (unvollständiger Stand, Regeln zu Anonymisierung und Anhängen greifen nicht);
 alle Dateien öffentlich pushen (Widerspruch zur Projektregel).
+
+## 2026-11-22 — n8n ersetzt die launchd-Automatik nicht
+
+**Entscheidung.** Die tägliche Automatik bleibt bei `daily_guard.sh` → `daily.sh` unter
+launchd (08:00, Login, alle 30 Minuten). n8n **2.48.7** wurde selbst gehostet in Docker
+getestet: Der Workflow `Projektplanung Tagesbericht (Test)` (Schedule-Trigger `0 8 * * *`,
+zusätzlich Webhook-Test, Code-Node liest `Neu seit letztem Lauf.md`, HTTP-Request an den
+Discord-Webhook) lief end-to-end. Genau eine Nachricht wurde gesendet (message id
+`1574154033030107167`) an `#jlu_projektplannung` (`channel_id 1574148268345008128`, Guild
+Work and JLU). Der Schedule-Trigger wurde separat belegt (20-Sekunden-Testworkflow, zwei
+Läufe: `20:07:00Z`, `20:07:20Z`). Danach wurden Container, Temp-Dateien und Image entfernt.
+
+**Grund.** (1) Der Container kann die vorhandenen Skripte nicht ausführen: kein `python3`,
+`pdftotext` oder `pandoc`, und n8n 2.x hat den Node `Execute Command` entfernt — die
+Ablauflogik müsste neu geschrieben werden. (2) Docker Desktop teilt `/Applications` nicht,
+der Vault war im Container nicht lesbar (Test nur mit Kopie in `/tmp`). (3) n8n braucht
+weiterhin launchd oder pm2, um dauerhaft zu laufen, und holt verpasste Läufe nicht nach;
+der Guard leistet das bereits. (4) Zusätzlicher Bedarf (Image 2,18 GB, RAM, Web-UI mit
+Anmeldung) ohne Gewinn an Zuverlässigkeit.
+
+**Verworfen.** n8n als alleinigen Scheduler einsetzen (doppelte Discord-Berichte, zwei
+Zuständigkeiten); n8n auf dem Host per `npx` statt Docker (gleiche fehlende Nachhol-Logik,
+zusätzliche Node-Abhängigkeit).
+
+## 2026-11-22 — Tailscale Personal als kostenloser Fernzugriff
+
+**Entscheidung.** Für den Zugriff von außen auf den Mac zu Hause wird **Tailscale Personal**
+(0 USD) verwendet. Die App ist installiert (1.104.7) und angemeldet als `dotrung1998@`;
+Tailnet `tail8ab714.ts.net`, Gerät `macbook-air-von-the` (`100.94.206.97`), derzeit 0 Peers.
+Tailscale ist ein Mesh-VPN für eigene Geräte, kein Internet-Exit.
+
+**Grund.** Kein öffentlicher Port und keine öffentliche IP nötig, funktioniert hinter
+CGNAT; Subnet-Router und Exit-Node sind im Free-Plan enthalten; keine Kosten. Grenze: der
+Mac muss eingeschaltet und wach sein, und Tailscale muss laufen.
+
+**Verworfen.** Cloudflare Tunnel (kostenlos, aber eigene Domain und öffentliche
+Erreichbarkeit nötig; `cloudflared` nicht installiert); WireGuard selbst (kostenlos, aber
+Portfreigabe, öffentliche IP und Admin-Rechte); kommerzielle VPN-Abos.
+
+## 2026-11-22 — Nur ein Scheduler sendet den Tagesbericht
+
+**Entscheidung.** Es gibt genau **einen geplanten Absender** für den Discord-Bericht.
+Entweder launchd (08:00 auf dem Mac) **oder** GitHub Actions (Cron), nie beide am selben
+Tag. Für den aktuellen Stand: launchd bleibt der einzige geplante Lauf; der
+Actions-Workflow `.github/workflows/tageslauf.yml` bleibt als manueller Notfallweg
+(`workflow_dispatch`) für Tage, an denen der Mac aus ist. Der Cron-Eintrag wird entfernt,
+sobald der Workflow gepusht wird — die Umsetzung ist noch offen.
+
+**Grund.** Beide Läufe schreiben dieselben Dateien (`daily.log`, `abdeckung.json`,
+Status-/Board-Blöcke) und senden unabhängig voneinander: zwei Läufe um 08:00 ergeben zwei
+Discord-Nachrichten und konkurrierende Commits. Ein gemeinsamer Zustand fehlt — der Mac
+pusht seine Läufe nicht automatisch, und Actions sieht lokale Änderungen nicht. Eine
+Deduplizierung über `daily.log` wäre nur eine Race mit Rebase-Konflikten, kein Lock.
+
+**Verworfen.** Beide Zeitpläne parallel (doppelte Berichte, divergierende Commits);
+Dedupe über `daily.log` mit `git pull` auf beiden Seiten (Race zwischen 08:00 und
+GitHub-Verzögerung, Append-Konflikte in `daily.log`); Actions als primärer Scheduler bei
+aktivem launchd (dann müsste `StartCalendarInterval` aus dem plist entfernt werden).
+
+## 2026-11-22 — GitHub Actions ist der einzige Scheduler; launchd ruht
+
+**Entscheidung.** Der geplante Tageslauf läuft ab jetzt ausschließlich auf GitHub Actions
+(`.github/workflows/tageslauf.yml`, Cron 08:00 `Europe/Berlin`). Der lokale LaunchAgent
+`com.projektplanung.pda.daily` wird gestoppt und aus `~/Library/LaunchAgents` entfernt
+(Sicherung als `.plist.disabled`); die Dateien im Vault bleiben unverändert. Ein manueller
+Start per `workflow_dispatch` bleibt möglich.
+
+**Grund.** Der Nutzer will den Lauf in der Cloud. Zwei Scheduler am selben Tag erzeugen
+zwei Discord-Berichte und konkurrierende Commits (siehe „Nur ein Scheduler sendet den
+Tagesbericht“). Das Repository-Secret `DISCORD_WEBHOOK` ist gesetzt, und der Workflow
+schreibt die Ergebnisse ins Repository zurück.
+
+**Verworfen.** launchd parallel weiterlaufen lassen (doppelte Berichte, divergierende
+Commits); Actions nur manuell (kein 08:00-Lauf, wenn der Mac aus ist).

@@ -1,0 +1,86 @@
+# Täglicher Lauf der Projektplanung-Automatik auf GitHub Actions.
+#
+# Entspricht dem Lauf auf dem Mac (daily.sh): ingest.py, board_sync.py und der
+# Discord-Bericht. Der lokale LaunchAgent bleibt unverändert; dieser Workflow ist
+# eine zusätzliche, unabhängige Ausführung in der Cloud.
+#
+# Der Discord-Webhook liegt als Repository-Secret DISCORD_WEBHOOK und niemals im Repo.
+# daily.sh ruft discord_notify.py auf, das zuerst $DISCORD_WEBHOOK liest.
+name: Tageslauf
+
+on:
+  schedule:
+    # 08:00 Berliner Zeit; timezone macht den Lauf sommer-/winterzeitfest.
+    - cron: "0 8 * * *"
+      timezone: "Europe/Berlin"
+  # Manuell startbar, um den Workflow zu testen, ohne auf 08:00 zu warten.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tageslauf
+  cancel-in-progress: false
+
+jobs:
+  tageslauf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # Damit Zeitstempel in daily.log und im Discord-Bericht Berliner Zeit zeigen.
+      TZ: Europe/Berlin
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: PDF- und DOCX-Werkzeuge installieren
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends poppler-utils pandoc
+
+      - name: Tageslauf ausführen
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK" ]; then
+            echo "::warning::Secret DISCORD_WEBHOOK fehlt – der Bericht wird nicht gesendet."
+          fi
+          bash Wissen/_tools/daily.sh
+
+      - name: Änderungen committen und zurückschreiben
+        run: |
+          git config user.name "Projektplanung"
+          git config user.email "automation@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen – nichts zu committen."
+            exit 0
+          fi
+          git commit \
+            -m "Tageslauf $(date +%Y-%m-%d): Quellen eingelesen, Board fortgeschrieben" \
+            -m "- ingest.py und board_sync.py ausgeführt, Status- und Board-Blöcke aktualisiert"
+          # Neueste Commits von main einbeziehen, damit der Push nicht abgewiesen wird.
+          git pull --rebase origin main || {
+            echo "::warning::git pull --rebase fehlgeschlagen – zweiter Versuch in 5 s."
+            sleep 5
+            git pull --rebase origin main
+          }
+          git push
+
+      - name: Discord-Versand prüfen
+        run: |
+          last=$(grep '^Discord:' Wissen/_tools/daily.log | tail -1 || true)
+          echo "$last"
+          case "$last" in
+            "Discord: gesendet"*) ;;
+            *)
+              echo "::error::Discord-Bericht wurde nicht gesendet (Secret prüfen)."
+              exit 1
+              ;;
+          esac
