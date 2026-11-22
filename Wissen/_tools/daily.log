@@ -514,3 +514,15 @@ Status: unverändert
 Board-Struktur: ok (Kanban-Plugin)
 ---
 Discord: gesendet (HTTP 204)
+=== 2026-11-22 21:43:01 ===
+Lauf 2026-11-22 21:43
+  neu:         0
+  geändert:    10
+  unverändert: 14
+  Abdeckung:   24 Notiz, 2 manuell, 6 ausgeschlossen, 0 unbekannt
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: gesendet (HTTP 204)

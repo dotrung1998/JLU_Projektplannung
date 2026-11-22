@@ -5,9 +5,13 @@ stand: 2026-11-22
 
 # Neu seit letztem Lauf
 
-Lauf: 2026-11-22 21:40
+Lauf: 2026-11-22 21:43
 
-## Neu (10)
+## Neu (0)
+
+_nichts_
+
+## Geändert (10)
 
 - `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf`
 - `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf`
@@ -19,10 +23,6 @@ Lauf: 2026-11-22 21:40
 - `00_Materialien/Übungszettel/PDA_Uebungszettel_4_WiSe26-27.pdf`
 - `00_Materialien/Übungszettel/PDA_Uebungszettel_5_WiSe26-27.pdf`
 - `00_Materialien/Übungszettel/PDA_Uebungszettel_6_WiSe26-27.pdf`
-
-## Geändert (0)
-
-_nichts_
 
 ## Unverändert: 14 Quellen
 
