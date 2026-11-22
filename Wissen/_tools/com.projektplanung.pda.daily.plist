@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.projektplanung.pda.daily</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>/Applications/Projektplanung/Wissen/_tools/daily_guard.sh</string>
+	</array>
+	<key>WorkingDirectory</key>
+	<string>/Applications/Projektplanung</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartInterval</key>
+	<integer>1800</integer>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>8</integer>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
+	<key>StandardOutPath</key>
+	<string>/Applications/Projektplanung/Wissen/_tools/launchd.out.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Applications/Projektplanung/Wissen/_tools/launchd.err.log</string>
+</dict>
+</plist>

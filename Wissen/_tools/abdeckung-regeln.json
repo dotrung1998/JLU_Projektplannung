@@ -1,0 +1,44 @@
+{
+  "ausgeschlossen": [
+    {
+      "muster": "*.DS_Store",
+      "grund": "macOS-Metadatei mit Fensterpositionen, kein fachlicher Inhalt"
+    },
+    {
+      "muster": "00_Materialien.zip",
+      "grund": "Archivkopie von 00_Materialien (dieselben 19 Dateien, nur Umlaut-Kodierung der Ordnernamen weicht ab)"
+    },
+    {
+      "muster": "Lecture_07-MDA-15_Projektplanung_Data_Analytics.zip",
+      "grund": "Archiv enthält ausschließlich die leere Download-Liste archive_filelist.csv, keine Kursinhalte"
+    },
+    {
+      "muster": "00_Materialien/archive_filelist.csv",
+      "grund": "Download-Liste des Lernportals (Name, Größe, Uploader, Downloadzahl, Datum, Pfad) — Metadaten zu den 19 PDFs, kein fachlicher Inhalt"
+    },
+    {
+      "muster": "Lecture_*/archive_filelist.csv",
+      "grund": "leere Download-Liste des Lernportals (nur Kopfzeile)"
+    },
+    {
+      "muster": ".gitignore",
+      "grund": "Git-Konfiguration für dieses Projekt, kein Kursmaterial"
+    },
+    {
+      "muster": "AGENTS.md",
+      "grund": "Arbeitsanweisung für dieses Projekt, kein Kursmaterial"
+    }
+  ],
+  "manuell": [
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/Pasted 21-11-2026 at 20.38.05.png",
+      "notiz": "20 Sitzungen/Sitzung 05.md",
+      "grund": "WhatsApp-Screenshot vom 21.11.2026, 11:11: Katarinas Rückfragen zu Sebastians 3.1-Entwurf; Inhalt in [[Sitzung 05]] und [[Offene Punkte]] beschrieben"
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/Pasted 21-11-2026 at 20.38.44.png",
+      "notiz": "20 Sitzungen/Sitzung 05.md",
+      "grund": "WhatsApp-Screenshot vom 21.11.2026, 19:31: Sebastians Antworten (keine dritte Bewertung, keine Verbesserungsvorschläge, Frage 4 offen); Inhalt in [[Sitzung 05]] und [[Offene Punkte]] beschrieben"
+    }
+  ]
+}

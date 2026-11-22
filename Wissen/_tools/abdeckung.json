@@ -1,0 +1,225 @@
+{
+  "stand": "2026-11-22 20:34",
+  "dateien": [
+    {
+      "pfad": ".DS_Store",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "macOS-Metadatei mit Fensterpositionen, kein fachlicher Inhalt"
+    },
+    {
+      "pfad": ".gitignore",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "Git-Konfiguration für dieses Projekt, kein Kursmaterial"
+    },
+    {
+      "pfad": "00_Materialien/Conceptboard-PDF_Exporte/PDA_Sitzung01_Board_linear_WiSe26-27_v1.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Sitzung 01 Board (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Conceptboard-PDF_Exporte/PDA_Sitzung02_Board_linear_WiSe26-27_v1.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Sitzung 02 Board (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Conceptboard-PDF_Exporte/PDA_Sitzung03_Board_linear_WiSe26-27_v1.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Sitzung 03 Board (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Conceptboard-PDF_Exporte/PDA_Sitzung04_Board_linear_WiSe26-27_v1.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Sitzung 04 Board (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Conceptboard-PDF_Exporte/PDA_Sitzung05_Board_linear_WiSe26-27_v1.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Sitzung 05 Board (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Conceptboard-PDF_Exporte/PDA_Sitzung06_Board_linear_WiSe26-27_v1.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Sitzung 06 Board (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Entwurf_Projektplan_PDA_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "50 Plan/Projektplan-Vorlage (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "30 Gruppe/Quellen/Gruppenmeeting Leitfragen PDA WiSe26-27 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "30 Gruppe/Quellen/Messplan-Messvorgaben Gruppenprojekt PDA WiSe26-27 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_A_Vollstaendigkeit_PDA_WiSe26-27.docx",
+      "status": "notiz",
+      "ziel": "30 Gruppe/Quellen/Schablone A Vollstaendigkeit PDA WiSe26-27 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_B_Genauigkeit_PDA_WiSe26-27.docx",
+      "status": "notiz",
+      "ziel": "30 Gruppe/Quellen/Schablone B Genauigkeit PDA WiSe26-27 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Portfoliovorlage_Spezialisierungsmodul_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "10 Kurs/Portfoliovorlage Spezialisierungsmodul (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/SPZ_Informationsblatt_WiSe26-27_Stand_November2026.pdf",
+      "status": "notiz",
+      "ziel": "10 Kurs/SPZ-Informationsblatt (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_1_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Übungszettel 1 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_2_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Übungszettel 2 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_3_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Übungszettel 3 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_4_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Übungszettel 4 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_5_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Übungszettel 5 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_6_WiSe26-27.pdf",
+      "status": "notiz",
+      "ziel": "20 Sitzungen/Übungszettel 6 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "00_Materialien/archive_filelist.csv",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "Download-Liste des Lernportals (Name, Größe, Uploader, Downloadzahl, Datum, Pfad) — Metadaten zu den 19 PDFs, kein fachlicher Inhalt"
+    },
+    {
+      "pfad": "00_Materialien.zip",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "Archivkopie von 00_Materialien (dieselben 19 Dateien, nur Umlaut-Kodierung der Ordnernamen weicht ab)"
+    },
+    {
+      "pfad": "AGENTS.md",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "Arbeitsanweisung für dieses Projekt, kein Kursmaterial"
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/01_Woche-Portfolioabgabe/PDA_Do_Trung_WS26-27_Sitzung01.tex",
+      "status": "notiz",
+      "ziel": "40 Portfolio/Abgaben/Sitzung 01 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/02_Woche-Portfolioabgabe/PDA_Do_Trung_WS26-27_Sitzung02.tex",
+      "status": "notiz",
+      "ziel": "40 Portfolio/Abgaben/Sitzung 02 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/03_Woche-Portfolioabgabe/PDA_Do_Trung_WS26-27_Sitzung03.pdf",
+      "status": "notiz",
+      "ziel": "40 Portfolio/Abgaben/Sitzung 03 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/04_Woche-Portfolioabgabe/.DS_Store",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "macOS-Metadatei mit Fensterpositionen, kein fachlicher Inhalt"
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/04_Woche-Portfolioabgabe/PDA_Do_Trung_WS26-27_Sitzung04.pdf",
+      "status": "notiz",
+      "ziel": "40 Portfolio/Abgaben/Sitzung 04 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/Pasted 21-11-2026 at 20.38.05.png",
+      "status": "manuell",
+      "ziel": "20 Sitzungen/Sitzung 05.md",
+      "grund": "WhatsApp-Screenshot vom 21.11.2026, 11:11: Katarinas Rückfragen zu Sebastians 3.1-Entwurf; Inhalt in [[Sitzung 05]] und [[Offene Punkte]] beschrieben"
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/Pasted 21-11-2026 at 20.38.44.png",
+      "status": "manuell",
+      "ziel": "20 Sitzungen/Sitzung 05.md",
+      "grund": "WhatsApp-Screenshot vom 21.11.2026, 19:31: Sebastians Antworten (keine dritte Bewertung, keine Verbesserungsvorschläge, Frage 4 offen); Inhalt in [[Sitzung 05]] und [[Offene Punkte]] beschrieben"
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/Projektplanung Data Analytics.docx",
+      "status": "notiz",
+      "ziel": "40 Portfolio/Abgaben/Sitzung 05 (Quelle).md",
+      "grund": ""
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/archive_filelist.csv",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "leere Download-Liste des Lernportals (nur Kopfzeile)"
+    },
+    {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics.zip",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "Archiv enthält ausschließlich die leere Download-Liste archive_filelist.csv, keine Kursinhalte"
+    }
+  ],
+  "unbekannt": [],
+  "ohne_text": [],
+  "wochen_mit_dateien": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ],
+  "wochen_ohne_frist": [],
+  "zaehlung": {
+    "notiz": 24,
+    "manuell": 2,
+    "ausgeschlossen": 8,
+    "unbekannt": 0
+  }
+}

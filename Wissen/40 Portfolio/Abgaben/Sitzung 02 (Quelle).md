@@ -1,0 +1,88 @@
+---
+titel: "Abgabe Sitzung 02"
+quelle: "Lecture/02_Woche-Portfolioabgabe"
+stand: 2026-11-21
+hash: 2b07bff0a351
+automatisch: true
+---
+
+> Automatisch eingelesen aus `Lecture/02_Woche-Portfolioabgabe` am 2026-11-21. Nicht bearbeiten —
+> inhaltliche Arbeit gehört in die handgeschriebenen Notizen.
+
+# Abgabe Sitzung 02 (Quelle)
+
+Übungszettel 1.2, Abgabe 2026-11-03. Quelle: `02_Woche-Portfolioabgabe`
+
+## Dateien
+
+| Datei | Größe | Typ | Herkunft |
+|---|---|---|---|
+| `PDA_Do_Trung_WS26-27_Sitzung02.tex` | 5 KB | TEX | eigene Datei |
+
+> Eigene Datei vorhanden.
+
+## Inhalt
+
+### PDA_Do_Trung_WS26-27_Sitzung02.tex
+
+~~~~
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,left=1.2cm,right=1.2cm,top=1.2cm,bottom=1.2cm]{geometry}
+\usepackage{csquotes}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+\titleformat{\section}{\normalfont\normalsize\bfseries}{}{0pt}{}
+\begin{document}
+\pagestyle{empty}
+\fontsize{9}{10.5}\selectfont
+\begin{center}
+\textbf{\large Projektplanung Data Analytics}\\[1pt]
+Übungszettel 1.2: \enquote{Wie bin ich vorgegangen und warum?}, WiSe 2026/27\\
+\textbf{Trung Do} | Matrikelnummer: 8229831
+\end{center}
+\noindent\rule{\textwidth}{0.3pt}
+
+\section*{Teil A: Rekonstruktion des Arbeitsprozesses}
+\textbf{Frage 1: Rückblickender Projektplan}
+
+Die Kalenderwochen (KW) sind rückblickend geschätzt. Einige Tätigkeiten liefen parallel. Anmeldung und Abgabefrist sind feste Termine.
+
+\begin{tabularx}{\textwidth}{@{}p{2.8cm}X@{}}
+\hline
+\textbf{Zeitraum} & \textbf{Tätigkeiten und Ergebnisse}\\
+\hline
+KW 23 bis 26/2025 & Themenfindung neben meiner Arbeit als Werkstudent bei Hyundai Capital Bank Europe. Informationen über die schwierige Lage des Elektrofahrzeugmarktes brachten mich zur Restwertprognose. Eine Forschungsarbeit der südkoreanischen Muttergesellschaft zu CatBoost war der Ausgangspunkt für die Kombination mit weiteren Modellen. Wegen der Vertraulichkeit interner Daten recherchierte ich öffentliche Artikel und Zahlen zum deutschen Markt.\\
+KW 27 bis 29/2025 & Ersten Projektplan erstellen und an einen Professor mit Schwerpunkt maschinelles Lernen schicken. Fachliche Einarbeitung und Warten auf seine Rückmeldung. Diese Phase dauerte länger als erwartet.\\
+KW 30 bis 35/2025 & Plan anhand seiner Hinweise überarbeiten, Fragen beantworten und erneut zusenden. Weitere Literaturrecherche und Abstimmung bis Ende August.\\
+KW 36 bis 40/2025 & Zweitprüfer suchen. Mehrere Absagen wegen fehlender Kapazitäten oder fachlicher Passung. Zusage etwa Ende September beziehungsweise Anfang Oktober. Die erinnerte Wartezeit von drei Wochen ist hier enthalten.\\
+KW 41 bis 49/2025 & Formalitäten erledigen, offene Punkte überarbeiten und parallel Nachklausuren schreiben. Offizielle Anmeldung am 3. Dezember 2025 in KW 49.\\
+KW 49/2025 bis KW 06/2026 & Pipeline in Python mit VS Code entwickeln und im Terminal testen. Ergebnisse prüfen und Code anpassen. Erkenntnisse zunächst in Textdateien notieren, dann in LaTeX auf TeXPage ausarbeiten. Abgabefrist am 3. Februar 2026 in KW 06.\\
+Projektbegleitend & Python selbstständig vertiefen, da ich im Studium vor allem Java und nur die Grundlagen von Python gelernt hatte. Modelle zunächst mithilfe anschaulicher Videos auf YouTube verstehen und anschließend anhand wissenschaftlicher Literatur über die Hochschulzugänge vertiefen.\\
+\hline
+\end{tabularx}
+
+\textbf{Frage 2 (optional): Warum lief nicht alles nach einem festen Plan?}
+
+Mein Vorgehen hatte eine erkennbare Richtung, aber keinen durchgehend festen Zeitplan. Ich musste das Thema neben meiner Arbeit entwickeln und war bei Rückmeldungen und der Zweitprüfersuche von anderen abhängig. Dazu kamen die begrenzte Datenverfügbarkeit, meine Einarbeitung in Python und die Nachklausuren. Deshalb musste ich den Ablauf mehrfach anpassen.
+
+\section*{Teil B: Persönliche Reflexion}
+\textbf{Frage 3: Was war bewusst geplant und was hat sich ergeben?}
+
+Bewusst geplant war, die vorhandene Forschungsarbeit zu CatBoost als Ausgangspunkt zu nutzen und CatBoost mit weiteren Modellen zu kombinieren. Auch die laufende Dokumentation war eine bewusste Entscheidung: Ich hielt Probleme und Ergebnisse direkt fest, damit daraus später der Text der Bachelorarbeit entstehen konnte.
+
+Andere Entscheidungen ergaben sich aus den Umständen. Weil ich keine vertraulichen Unternehmensdaten verwenden konnte, arbeitete ich mit öffentlichen Marktinformationen und einer synthetischen Datengrundlage. Dadurch lag der Schwerpunkt stärker auf der methodischen Umsetzung als auf einer Validierung mit realen Unternehmensdaten. Auch der späte Anmeldetermin ergab sich aus der aufwendigen Zweitprüfersuche, weiteren Änderungen und den Nachklausuren.
+
+\textbf{Frage 4: Was hätte mir bei der Strukturierung geholfen?}
+
+Rückblickend hätte mir ein einfacher Wochenplan mit Meilensteinen und Zeitpuffern geholfen, besonders für Rückmeldungen, die Zweitprüfersuche und die Prüfungsphase. Eine frühzeitige Klärung des Datenzugangs hätte die methodische Ausrichtung erleichtert. Zusätzlich wären feste kurze Abstimmungstermine mit dem Betreuer und eine zentrale Aufgabenliste sinnvoll gewesen. Mehr praktische Erfahrung mit Python und dem Aufbau einer Modellpipeline hätte den Aufwand für die Einarbeitung besser abschätzbar gemacht.
+\end{document}
+~~~~

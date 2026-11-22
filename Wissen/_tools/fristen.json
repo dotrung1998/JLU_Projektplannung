@@ -1,0 +1,51 @@
+[
+  {
+    "id": "MEETING",
+    "datum": "2026-11-22T10:00",
+    "titel": "Gruppenmeeting Gruppe 11 (Datenerhebung)",
+    "wer": "team",
+    "detail": "online, mindestens 30 Minuten, fünf Leitfragen, Aufzeichnung nur mit Einwilligung"
+  },
+  {
+    "id": "ROHDATEN",
+    "datum": "2026-11-23T12:00",
+    "titel": "Rohdaten-Zeile Gruppe 11 im Conceptboard",
+    "wer": "team",
+    "detail": "fünf Zeitwerte, acht Prozentwerte, Werkzeug, Bewertende unabhängig"
+  },
+  {
+    "id": "UEZ31",
+    "datum": "2026-11-24",
+    "titel": "Abgabe Übungszettel 3.1 (Ordner 05)",
+    "wer": "person",
+    "detail": "eigene PDF PDA_Do_Trung_WS26-27_Sitzung05.pdf, inkl. individuellem Abschnitt"
+  },
+  {
+    "id": "UEZ32",
+    "datum": "2026-12-01",
+    "titel": "Abgabe Übungszettel 3.2 (Ordner 06) und vier IRR-Werte",
+    "wer": "person",
+    "detail": "Durchführung, Messwerte, Inter-Rater-Reliabilität, Planvergleich"
+  },
+  {
+    "id": "SITZUNG08",
+    "datum": "2026-12-04T10:00",
+    "titel": "Sitzung 8: IMRAD und Diskussion, digital",
+    "wer": "—",
+    "detail": "verschoben vom 01.12.2026"
+  },
+  {
+    "id": "SITZUNG09",
+    "datum": "2026-12-08",
+    "titel": "Sitzung 9: KI-Tools im akademischen Arbeiten I",
+    "wer": "—",
+    "detail": "Übungszettel folgt"
+  },
+  {
+    "id": "PORTFOLIO",
+    "datum": "2026-12-15",
+    "titel": "Gesamtportfolio in Stud.IP abgeben",
+    "wer": "person",
+    "detail": "zehn Seiten Kernteil, Deckblatt, Anhang; Uhrzeit nicht dokumentiert"
+  }
+]

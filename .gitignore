@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Freebuff Desktop (nur lokal)
+.freebuff/
+
+# Lokale Chat-Anhänge
+.cloud-attachments/
+
+# Eigenes Schwesterprojekt mit eigenem Repository
+JLU Spezializierungsmodul/

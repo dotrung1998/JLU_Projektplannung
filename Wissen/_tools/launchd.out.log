@@ -1,0 +1,64 @@
+=== 2026-11-22 13:32:35 ===
+Lauf 2026-11-22 13:32
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 1 unbekannt
+
+  WARNUNG: Quellen ohne Notiz und ohne Ausschluss:
+    - .gitignore
+  -> einlesen oder in _tools/abdeckung-regeln.json begründet ausschließen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Traceback (most recent call last):
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 197, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 168, in main
+    content = message()
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 122, in message
+    lines = [f"**Projektplanung · Lauf {stamp or datetime.now():%Y-%m-%d %H:%M}**"]
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid format specifier '%Y-%m-%d %H:%M' for object of type 'str'
+=== 2026-11-22 13:33:15 ===
+Lauf 2026-11-22 13:33
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: übersprungen (kein Webhook hinterlegt)
+Guard: kein Lauf für 2026-11-22, hole nach (13:37)
+=== 2026-11-22 13:37:06 ===
+Lauf 2026-11-22 13:37
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: übersprungen (kein Webhook hinterlegt)
+Guard: Nachhol-Lauf rc=0
+Guard: kein Lauf für 2026-11-22, hole nach (13:37)
+Kernschritt fehlgeschlagen: ingest.py
+=== 2026-11-22 13:37:30 ===
+/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/Resources/Python.app/Contents/MacOS/Python: can't open file '/Applications/Projektplanung/Wissen/_tools/ingest.py': [Errno 2] No such file or directory
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: übersprungen (kein Webhook hinterlegt)
+Guard: Nachhol-Lauf rc=1

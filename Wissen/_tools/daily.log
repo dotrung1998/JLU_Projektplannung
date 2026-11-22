@@ -1,0 +1,503 @@
+=== 2026-11-21 21:05:25 ===
+Lauf 2026-11-21 21:05
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  keine Änderungen an den Quellen.
+---
+Board: geändert
+Status: unverändert
+=== 2026-11-21 21:05:25 ===
+Lauf 2026-11-21 21:05
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+=== 2026-11-21 21:06:48 ===
+Lauf 2026-11-21 21:06
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+=== 2026-11-21 21:07:00 ===
+Lauf 2026-11-21 21:07
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+=== 2026-11-21 21:07:22 ===
+Lauf 2026-11-21 21:07
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+=== 2026-11-21 21:13:37 ===
+Lauf 2026-11-21 21:13
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:13:38 ===
+Lauf 2026-11-21 21:13
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:13:38 ===
+Lauf 2026-11-21 21:13
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:13:54 ===
+Lauf 2026-11-21 21:13
+  neu:         0
+  geändert:    1
+  unverändert: 28
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   26 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  ohne Text extrahiert:
+    - Lecture_07-MDA-15_Projektplanung_Data_Analytics/07_Woche-Portfolioabgabe/kaputt.pdf
+  Abgabe ohne bekannte Frist: Sitzung 07
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:14:21 ===
+Lauf 2026-11-21 21:14
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  entfernt:    1 (Quelle weg, Notiz und Anhang gelöscht)
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:14:52 ===
+Lauf 2026-11-21 21:14
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:15:50 ===
+Lauf 2026-11-21 21:15
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  entfernt:    4 (verwaiste Zustände/Notizen aufgeräumt)
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:16:11 ===
+Lauf 2026-11-21 21:16
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:17:33 ===
+Lauf 2026-11-21 21:17
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:18:00 ===
+Lauf 2026-11-21 21:18
+  neu:         2
+  geändert:    0
+  unverändert: 28
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   26 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  Abgabe ohne bekannte Frist: Sitzung 07
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:18:01 ===
+Lauf 2026-11-21 21:18
+  neu:         0
+  geändert:    0
+  unverändert: 30
+  Abdeckung:   26 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  Abgabe ohne bekannte Frist: Sitzung 07
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:18:30 ===
+Lauf 2026-11-21 21:18
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  entfernt:    2 (verwaiste Zustände/Notizen aufgeräumt)
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:19:17 ===
+Lauf 2026-11-21 21:19
+  neu:         1
+  geändert:    0
+  unverändert: 28
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   25 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  Abgabe ohne bekannte Frist: Sitzung 07
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:19:30 ===
+Lauf 2026-11-21 21:19
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  Abdeckung:   25 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  Abgabe ohne bekannte Frist: Sitzung 07
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:19:30 ===
+Lauf 2026-11-21 21:19
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  entfernt:    1 (verwaiste Zustände/Notizen aufgeräumt)
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:19:53 ===
+Lauf 2026-11-21 21:19
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 1 unbekannt
+
+  WARNUNG: Quellen ohne Notiz und ohne Ausschluss:
+    - 00_Materialien/test-unbekannt.png
+  -> einlesen oder in _tools/abdeckung-regeln.json begründet ausschließen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:19:54 ===
+Lauf 2026-11-21 21:19
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:03 ===
+Lauf 2026-11-21 21:20
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 1 unbekannt
+
+  WARNUNG: Quellen ohne Notiz und ohne Ausschluss:
+    - 00_Materialien/test-unbekannt.png
+  -> einlesen oder in _tools/abdeckung-regeln.json begründet ausschließen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:03 ===
+Lauf 2026-11-21 21:20
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:19 ===
+Lauf 2026-11-21 21:20
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 1 unbekannt
+
+  WARNUNG: Quellen ohne Notiz und ohne Ausschluss:
+    - 00_Materialien/test-unbekannt.png
+  -> einlesen oder in _tools/abdeckung-regeln.json begründet ausschließen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:19 ===
+Lauf 2026-11-21 21:20
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:30 ===
+Lauf 2026-11-21 21:20
+  neu:         1
+  geändert:    0
+  unverändert: 28
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   25 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  Abgabe ohne bekannte Frist: Sitzung 07
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:30 ===
+Lauf 2026-11-21 21:20
+  neu:         0
+  geändert:    0
+  unverändert: 29
+  Abdeckung:   25 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  Abgabe ohne bekannte Frist: Sitzung 07
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:30 ===
+Lauf 2026-11-21 21:20
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  entfernt:    1 (verwaiste Zustände/Notizen aufgeräumt)
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:43 ===
+Lauf 2026-11-21 21:20
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:20:53 ===
+Lauf 2026-11-21 21:20
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:21:42 ===
+Lauf 2026-11-21 21:21
+  neu:         1
+  geändert:    0
+  unverändert: 28
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   25 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  ohne Text extrahiert:
+    - Lecture_07-MDA-15_Projektplanung_Data_Analytics/07_Woche-Portfolioabgabe/PDA_Do_Trung_WS26-27_Sitzung07.pdf
+  Abgabe ohne bekannte Frist: Sitzung 07
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:21:42 ===
+Lauf 2026-11-21 21:21
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  entfernt:    1 (verwaiste Zustände/Notizen aufgeräumt)
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+---
+Board: unverändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:21:56 ===
+Lauf 2026-11-21 21:21
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-21 21:21:57 ===
+Lauf 2026-11-21 21:21
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+=== 2026-11-22 13:32:34 ===
+Lauf 2026-11-22 13:32
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 1 unbekannt
+
+  WARNUNG: Quellen ohne Notiz und ohne Ausschluss:
+    - .gitignore
+  -> einlesen oder in _tools/abdeckung-regeln.json begründet ausschließen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Traceback (most recent call last):
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 197, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 168, in main
+    content = message()
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 122, in message
+    lines = [f"**Projektplanung · Lauf {stamp or datetime.now():%Y-%m-%d %H:%M}**"]
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid format specifier '%Y-%m-%d %H:%M' for object of type 'str'
+=== 2026-11-22 13:32:35 ===
+Lauf 2026-11-22 13:32
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 1 unbekannt
+
+  WARNUNG: Quellen ohne Notiz und ohne Ausschluss:
+    - .gitignore
+  -> einlesen oder in _tools/abdeckung-regeln.json begründet ausschließen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Traceback (most recent call last):
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 197, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 168, in main
+    content = message()
+  File "/Applications/Projektplanung/Wissen/_tools/discord_notify.py", line 122, in message
+    lines = [f"**Projektplanung · Lauf {stamp or datetime.now():%Y-%m-%d %H:%M}**"]
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid format specifier '%Y-%m-%d %H:%M' for object of type 'str'
+=== 2026-11-22 13:33:15 ===
+Lauf 2026-11-22 13:33
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: übersprungen (kein Webhook hinterlegt)
+=== 2026-11-22 13:33:15 ===
+Lauf 2026-11-22 13:33
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: übersprungen (kein Webhook hinterlegt)
+=== 2026-11-22 13:37:54 ===
+Lauf 2026-11-22 13:37
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: übersprungen (kein Webhook hinterlegt)
+=== 2026-11-22 13:38:26 ===
+Lauf 2026-11-22 13:38
+  neu:         0
+  geändert:    0
+  unverändert: 28
+  Abdeckung:   24 Notiz, 2 manuell, 7 ausgeschlossen, 0 unbekannt
+  keine Änderungen an den Quellen.
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: übersprungen (kein Webhook hinterlegt)
