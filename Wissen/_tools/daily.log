@@ -501,3 +501,16 @@ Status: unverändert
 Board-Struktur: ok (Kanban-Plugin)
 ---
 Discord: übersprungen (kein Webhook hinterlegt)
+=== 2026-11-22 21:40:22 ===
+Lauf 2026-11-22 21:40
+  neu:         10
+  geändert:    0
+  unverändert: 14
+  entfernt:    10 (verwaiste Zustände/Notizen aufgeräumt)
+  Abdeckung:   24 Notiz, 2 manuell, 6 ausgeschlossen, 0 unbekannt
+---
+Board: unverändert
+Status: unverändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: gesendet (HTTP 204)

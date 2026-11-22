@@ -1,12 +1,6 @@
 {
-  "stand": "2026-11-22 20:34",
+  "stand": "2026-11-22 21:40",
   "dateien": [
-    {
-      "pfad": ".DS_Store",
-      "status": "ausgeschlossen",
-      "ziel": "",
-      "grund": "macOS-Metadatei mit Fensterpositionen, kein fachlicher Inhalt"
-    },
     {
       "pfad": ".gitignore",
       "status": "ausgeschlossen",
@@ -56,25 +50,25 @@
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf",
+      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf",
       "status": "notiz",
       "ziel": "30 Gruppe/Quellen/Gruppenmeeting Leitfragen PDA WiSe26-27 (Quelle).md",
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf",
+      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf",
       "status": "notiz",
       "ziel": "30 Gruppe/Quellen/Messplan-Messvorgaben Gruppenprojekt PDA WiSe26-27 (Quelle).md",
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_A_Vollstaendigkeit_PDA_WiSe26-27.docx",
+      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_A_Vollstaendigkeit_PDA_WiSe26-27.docx",
       "status": "notiz",
       "ziel": "30 Gruppe/Quellen/Schablone A Vollstaendigkeit PDA WiSe26-27 (Quelle).md",
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_B_Genauigkeit_PDA_WiSe26-27.docx",
+      "pfad": "00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_B_Genauigkeit_PDA_WiSe26-27.docx",
       "status": "notiz",
       "ziel": "30 Gruppe/Quellen/Schablone B Genauigkeit PDA WiSe26-27 (Quelle).md",
       "grund": ""
@@ -92,46 +86,46 @@
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_1_WiSe26-27.pdf",
+      "pfad": "00_Materialien/archive_filelist.csv",
+      "status": "ausgeschlossen",
+      "ziel": "",
+      "grund": "Download-Liste des Lernportals (Name, Größe, Uploader, Downloadzahl, Datum, Pfad) — Metadaten zu den 19 PDFs, kein fachlicher Inhalt"
+    },
+    {
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_1_WiSe26-27.pdf",
       "status": "notiz",
       "ziel": "20 Sitzungen/Übungszettel 1 (Quelle).md",
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_2_WiSe26-27.pdf",
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_2_WiSe26-27.pdf",
       "status": "notiz",
       "ziel": "20 Sitzungen/Übungszettel 2 (Quelle).md",
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_3_WiSe26-27.pdf",
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_3_WiSe26-27.pdf",
       "status": "notiz",
       "ziel": "20 Sitzungen/Übungszettel 3 (Quelle).md",
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_4_WiSe26-27.pdf",
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_4_WiSe26-27.pdf",
       "status": "notiz",
       "ziel": "20 Sitzungen/Übungszettel 4 (Quelle).md",
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_5_WiSe26-27.pdf",
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_5_WiSe26-27.pdf",
       "status": "notiz",
       "ziel": "20 Sitzungen/Übungszettel 5 (Quelle).md",
       "grund": ""
     },
     {
-      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_6_WiSe26-27.pdf",
+      "pfad": "00_Materialien/Übungszettel/PDA_Uebungszettel_6_WiSe26-27.pdf",
       "status": "notiz",
       "ziel": "20 Sitzungen/Übungszettel 6 (Quelle).md",
       "grund": ""
-    },
-    {
-      "pfad": "00_Materialien/archive_filelist.csv",
-      "status": "ausgeschlossen",
-      "ziel": "",
-      "grund": "Download-Liste des Lernportals (Name, Größe, Uploader, Downloadzahl, Datum, Pfad) — Metadaten zu den 19 PDFs, kein fachlicher Inhalt"
     },
     {
       "pfad": "00_Materialien.zip",
@@ -162,12 +156,6 @@
       "status": "notiz",
       "ziel": "40 Portfolio/Abgaben/Sitzung 03 (Quelle).md",
       "grund": ""
-    },
-    {
-      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/04_Woche-Portfolioabgabe/.DS_Store",
-      "status": "ausgeschlossen",
-      "ziel": "",
-      "grund": "macOS-Metadatei mit Fensterpositionen, kein fachlicher Inhalt"
     },
     {
       "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/04_Woche-Portfolioabgabe/PDA_Do_Trung_WS26-27_Sitzung04.pdf",
@@ -219,7 +207,7 @@
   "zaehlung": {
     "notiz": 24,
     "manuell": 2,
-    "ausgeschlossen": 8,
+    "ausgeschlossen": 6,
     "unbekannt": 0
   }
 }

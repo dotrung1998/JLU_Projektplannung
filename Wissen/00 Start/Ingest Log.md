@@ -6,6 +6,26 @@ titel: Ingest Log
 
 | Zeitpunkt | Aktion | Quelle | Ziel |
 |---|---|---|---|
+| 2026-11-22 21:40 | neu | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf` | `30 Gruppe/Quellen/Gruppenmeeting Leitfragen PDA WiSe26-27 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf` | `30 Gruppe/Quellen/Messplan-Messvorgaben Gruppenprojekt PDA WiSe26-27 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_A_Vollstaendigkeit_PDA_WiSe26-27.docx` | `30 Gruppe/Quellen/Schablone A Vollstaendigkeit PDA WiSe26-27 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_B_Genauigkeit_PDA_WiSe26-27.docx` | `30 Gruppe/Quellen/Schablone B Genauigkeit PDA WiSe26-27 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Übungszettel/PDA_Uebungszettel_1_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 1 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Übungszettel/PDA_Uebungszettel_2_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 2 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Übungszettel/PDA_Uebungszettel_3_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 3 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Übungszettel/PDA_Uebungszettel_4_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 4 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Übungszettel/PDA_Uebungszettel_5_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 5 (Quelle).md` |
+| 2026-11-22 21:40 | neu | `00_Materialien/Übungszettel/PDA_Uebungszettel_6_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 6 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf` | `30 Gruppe/Quellen/Gruppenmeeting Leitfragen PDA WiSe26-27 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf` | `30 Gruppe/Quellen/Messplan-Messvorgaben Gruppenprojekt PDA WiSe26-27 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_A_Vollstaendigkeit_PDA_WiSe26-27.docx` | `30 Gruppe/Quellen/Schablone A Vollstaendigkeit PDA WiSe26-27 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_B_Genauigkeit_PDA_WiSe26-27.docx` | `30 Gruppe/Quellen/Schablone B Genauigkeit PDA WiSe26-27 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Übungszettel/PDA_Uebungszettel_1_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 1 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Übungszettel/PDA_Uebungszettel_2_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 2 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Übungszettel/PDA_Uebungszettel_3_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 3 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Übungszettel/PDA_Uebungszettel_4_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 4 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Übungszettel/PDA_Uebungszettel_5_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 5 (Quelle).md` |
+| 2026-11-22 21:40 | entfernt | `00_Materialien/Übungszettel/PDA_Uebungszettel_6_WiSe26-27.pdf` | `20 Sitzungen/Übungszettel 6 (Quelle).md` |
 | 2026-11-21 21:21 | entfernt | `Lecture/07_Woche-Portfolioabgabe` | `40 Portfolio/Abgaben/Sitzung 07 (Quelle).md` |
 | 2026-11-21 21:21 | neu | `Lecture/07_Woche-Portfolioabgabe` | `40 Portfolio/Abgaben/Sitzung 07 (Quelle).md` |
 | 2026-11-21 21:20 | neu | `Lecture/07_Woche-Portfolioabgabe` | `40 Portfolio/Abgaben/Sitzung 07 (Quelle).md` |

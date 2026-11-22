@@ -5,22 +5,31 @@ stand: 2026-11-22
 
 # Neu seit letztem Lauf
 
-Lauf: 2026-11-22 20:34
+Lauf: 2026-11-22 21:40
 
-## Neu (0)
+## Neu (10)
 
-_nichts_
+- `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf`
+- `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf`
+- `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_A_Vollstaendigkeit_PDA_WiSe26-27.docx`
+- `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_B_Genauigkeit_PDA_WiSe26-27.docx`
+- `00_Materialien/Übungszettel/PDA_Uebungszettel_1_WiSe26-27.pdf`
+- `00_Materialien/Übungszettel/PDA_Uebungszettel_2_WiSe26-27.pdf`
+- `00_Materialien/Übungszettel/PDA_Uebungszettel_3_WiSe26-27.pdf`
+- `00_Materialien/Übungszettel/PDA_Uebungszettel_4_WiSe26-27.pdf`
+- `00_Materialien/Übungszettel/PDA_Uebungszettel_5_WiSe26-27.pdf`
+- `00_Materialien/Übungszettel/PDA_Uebungszettel_6_WiSe26-27.pdf`
 
 ## Geändert (0)
 
 _nichts_
 
-## Unverändert: 28 Quellen
+## Unverändert: 14 Quellen
 
 ## Abdeckung
 
-- Quellen gesamt: **34**
-- durch Notiz: 24 · manuell beschrieben: 2 · ausgeschlossen: 8 · **unbekannt: 0**
+- Quellen gesamt: **32**
+- durch Notiz: 24 · manuell beschrieben: 2 · ausgeschlossen: 6 · **unbekannt: 0**
 
 Alle Quellen sind erfasst oder begründet ausgeschlossen.
 
