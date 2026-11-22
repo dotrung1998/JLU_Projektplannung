@@ -382,3 +382,17 @@ schreibt die Ergebnisse ins Repository zurück.
 
 **Verworfen.** launchd parallel weiterlaufen lassen (doppelte Berichte, divergierende
 Commits); Actions nur manuell (kein 08:00-Lauf, wenn der Mac aus ist).
+
+## 2026-11-22 — Nachtrag: Actions ist blockiert, launchd bleibt vorerst aktiv
+
+**Entscheidung.** Der LaunchAgent bleibt aktiv, bis GitHub Actions auf dem privaten
+Repository nachweislich läuft. Der erste Testlauf (`run 45067125802`) wurde von GitHub
+**vor dem Start** abgebrochen: „The job was not started because recent account payments
+have failed or your spending limit needs to be increased.“ Das ist eine Billing-Sperre des
+Kontos, kein Fehler im Workflow.
+
+**Grund.** Ohne laufenden Cloud-Job darf die lokale Automatik nicht abgeschaltet werden,
+sonst fällt der Tagesbericht aus.
+
+**Verworfen.** launchd trotz blockiertem Actions stoppen (Ausfall des Berichts); das
+Repository öffentlich machen (Matrikelnummern und Namen, verstößt gegen die Projektregel).
