@@ -396,3 +396,25 @@ sonst fällt der Tagesbericht aus.
 
 **Verworfen.** launchd trotz blockiertem Actions stoppen (Ausfall des Berichts); das
 Repository öffentlich machen (Matrikelnummern und Namen, verstößt gegen die Projektregel).
+
+## 2026-11-22 — Öffentliches Repository, Actions läuft, Ruleset auf main
+
+**Entscheidung.** Das Repository ist öffentlich; damit läuft GitHub Actions ohne
+Billing-Sperre. Testlauf `45067710806`: **success**, `Discord: gesendet (HTTP 204)`,
+Commit `825ba6d` vom Workflow zurückgeschrieben. Das Ruleset
+`main: Schutz vor Loeschen und Force-Push` (id `27857534`) verbietet Löschen und
+Force-Push auf `main`; Bypass hat nur die Repository-Admin-Rolle. Der Workflow committet
+unter `Trung Do <dotrung1998@gmail.com>`.
+
+**Grund.** Kostenloser Cloud-Lauf ohne Zahlungsdaten; `main` bleibt gegen versehentliches
+Löschen und Force-Push geschützt. Die Autorenidentität der Commits aus diesem Rechner und
+aus dem Workflow ist dieselbe.
+
+**Verworfen.** `Restrict updates` mit Bypass für die GitHub-Actions-App (GitHub lehnt das
+für benutzereigene Repositories ab: „Actor GitHub Actions integration must be part of the
+ruleset source or owner organization“); Push-Ruleset mit Autor-E-Mail-Muster (nur für
+Organisationen und private/interne Repositories verfügbar).
+
+**Hinweis.** Öffentlich bedeutet: die im Vault kopierten Abgaben enthalten Matrikelnummern
+und Gruppennamen und sind jetzt öffentlich einsehbar; der frühere Grund für „privat“
+bleibt fachlich gültig und wird hier bewusst zurückgestellt.
