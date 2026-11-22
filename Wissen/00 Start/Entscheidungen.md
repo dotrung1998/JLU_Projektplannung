@@ -496,3 +496,74 @@ Approvals und keine kritischen Commits/Pushes über Nod.
 **Aufräumen.** Container, Volumes, `postgres:17-alpine`, Nod-Images und 8,486 GB
 Build-Cache entfernt; Docker wieder 32 Images/20,15 GB, Build-Cache 0 B. Keine
 Nod-Prozesse, Ports 4310/11435 frei; Arbeitsbaum sauber, keine Testdateien im Repo.
+
+## 2026-11-22 — Eigene 3.1 als LaTeX-Datei und PDF gesetzt
+
+**Entscheidung.** Übungszettel 3.1 liegt als
+`05_Woche-Portfolioabgabe/PDA_Do_Trung_WS26-27_Sitzung05.tex` und `.pdf` vor: eine Seite,
+Fragen 1–4 auf dem Stand der Gruppendiskussion, Frage 5 als eigener Individualteil.
+
+**Grund.** Die Abgabe muss die eigene Leistung sein; der DOCX-Entwurf von Sebastian
+enthält Frage 5 nicht. Der Zettel empfiehlt eine Seite (Obergrenze zwei); die Fassung
+bleibt bei einer Seite und passt damit in das Portfolio.
+
+**Umsetzung.** `tectonic` mit XeTeX und `fontspec` (Latin Modern Sans,
+`lmsans10-*.otf`); `inputenc`/`fontenc` entfallen. Inhaltlich: `N = 11 + 2 × 6 = 23`,
+keine dritte bewertende Person, in Frage 4 nur blinde Flecken und keine
+Verbesserungsvorschläge (Rückmeldungen 21./22.11.), Individualteil als Person C mit
+Schablonen A und B und `b1`.
+
+**Verworfen.** Sebastians DOCX unverändert einreichen (fehlender Individualteil); die
+T1-Einstellung der früheren Dateien beibehalten (ß wurde als „SS“ gesetzt).
+
+## 2026-11-22 — 3.1 auf die pdfLaTeX-Struktur der früheren Abgaben umgestellt
+
+**Entscheidung.** `PDA_Do_Trung_WS26-27_Sitzung05.tex` folgt jetzt dem Aufbau von
+`01_Woche-Portfolioabgabe/…Sitzung01.tex`: 9pt, `inputenc`/`fontenc` T1, `geometry`
+1,2 cm, `enumitem`, `titlesec`, Titelzeile mit Trennlinien. Die XeTeX-Fassung mit
+`fontspec` entfällt. Inhaltlich bleibt der Zettel gleich; für eine Seite wurden einzelne
+Sätze gestrafft und `\parskip` sowie das Leading leicht reduziert.
+
+**Grund.** Die Datei muss wie die früheren Zettel auf texpage.com kompilierbar sein.
+Lokal ist nur `tectonic` (XeTeX) installiert, das mit `inputenc`/`fontenc` ß als „SS“
+setzt; auf texpage läuft pdfLaTeX und die T1-Einstellung ist dort korrekt.
+
+**Einschränkung.** Die PDF im Ordner ist mit XeTeX und metric-kompatiblen Latin-Modern-
+Fonts erzeugt, weil lokal kein pdfLaTeX vorhanden ist; Seitenzahl und Umbrüche stimmen.
+Wer die PDF direkt aus der Datei erzeugen will, kompiliert sie auf texpage.
+
+## 2026-11-22 — Rohdaten: die Zeile von Katarina gilt unverändert
+
+**Entscheidung.** Für Gruppe 11 gilt Zeile 11 im Conceptboard so, wie Katarina sie
+eingetragen hat: `meeting_min` = 37, `zeit_auto_einrichtung` = 25,
+`zeit_man_mitschreiben` = 35 und die acht Prozentwerte mit `b1` = Trung und `b2` =
+Dominik. Die Gruppe übernimmt diese Werte und das Ergebnis; es wird nichts angeglichen.
+
+**Grund.** Die Tabelle auf dem Conceptboard ist die gemeinsame Datengrundlage für Sitzung 7
+und Übungszettel 3.2. Eine nachträgliche Korrektur würde die Zeile von der Absprache der
+Gruppe lösen, ohne dass ein Beleg den anderen Wert erzwingt.
+
+**Dokumentiert, nicht korrigiert.** Die Protokolle nennen 41 Minuten Meetingdauer
+(10:14–10:55) und 30 Minuten Einrichtung; beides bleibt in [[Messung 22-11]] und
+[[Rohdaten]] als Beleg stehen.
+
+## 2026-11-22 — IRR: keine κ-Werte aus den acht Prozentwerten geschätzt
+
+**Entscheidung.** Die vier κ-Werte für Übungszettel 3.2 bleiben offen, bis **Ds
+Einzelurteile** (Schablone A und B je Inhalt) vorliegen. Statt einer Schätzung hält
+`06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md` fest, was aus den acht Prozentwerten
+arithmetisch folgt: die Rückrechnung auf Zähler, die κ-Spannen bei unbekannter
+Überlappung und der Rechenweg.
+
+**Grund.** κ hängt an der gemeinsamen 2×2- bzw. 3×3-Tabelle, nicht an den Randverteilungen:
+Beim manuellen Protokoll liegen je nach Überlappung κ = −0,25 bis 0,50, beim automatischen
+−0,05 bis 1,00. Eine einzelne Zahl wäre erfunden. Die Board-Zeile bleibt unverändert
+(Gruppenentscheidung).
+
+**Verworfen.** κ aus den Prozentwerten „überschlagen“ (etwa der Mittelwert als Po);
+Po = 1 annehmen, weil beide Protokolle ähnlich abschneiden; die Zeile neu berechnen.
+
+**Nebenbefund (nur Beschriftung).** Die `b2`-Spalte der Board-Zeile enthält exakt die Werte
+von C (78,3 / 87,0 / 91,7 / 97,5, [[Bewertung C - Begründungen]]), also Trung und nicht D.
+`b1` ist damit D; die Absprache „b1 = Trung, b2 = Dominik“ ist in der Zeile vertauscht.
+Außerdem ist die zweite Spalte nur mit N = 21 konsistent, C rechnet mit N = 23.

@@ -29,6 +29,10 @@ Einrichtung **30 Min**, Verarbeitung inkl. Wartezeit **10 Min**, Nachbearbeitung
 der Prompt ist im [[Aufnahme Auto Tianshu|KI-Protokoll]] dokumentiert. Alle sechs
 Gruppenmitglieder haben der Aufzeichnung zugestimmt (Gruppenangabe 22.11.2026).
 
+**Eingetragen im Conceptboard (Gruppenentscheidung 22.11.2026):** `meeting_min` = 37,
+`zeit_auto_einrichtung` = 25. Die hier belegten 41 bzw. 30 Minuten bleiben als Messwert
+stehen; die Board-Zeile wird nicht angeglichen ([[Rohdaten]]).
+
 ## Protokolle
 
 - [[Aufnahme Auto Tianshu]] — KI-Protokoll, DOCX von Tianshu

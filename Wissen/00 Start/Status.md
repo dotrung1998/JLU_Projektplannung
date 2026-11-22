@@ -59,10 +59,16 @@ Schätzung, keine Protokolländerung.
 **Montag 23.11. vor 12:00:** Rohdaten-Zeile prüfen; `b1 = Trung`, `b2 = Dominik`
 ([[Rohdaten]]).
 
+**IRR (22.11.):** Die vier κ-Werte für 3.2 sind **offen**; die acht Prozentwerte reichen
+nicht, Ds Einzelurteile fehlen. Rechnung, κ-Spannen und zwei Befunde (zweite Spalte mit
+N = 21 statt 23; `b2` enthält die Werte von C) in
+`06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
+
 **Dienstag 24.11.:** eigene Fassung von Übungszettel 3.1 als PDF abgeben. Der Entwurf in
 `05_Woche` ist von Sebastian, nicht die eigene Abgabe; Inhalt übernehmen ist richtig, aber
 die Datei muss `PDA_Do_Trung_WS26-27_Sitzung05.pdf` heißen und den individuellen Abschnitt
-enthalten.
+enthalten. **Stand 22.11., 23:25:** `.tex` und `.pdf` liegen im Ordner (eine Seite,
+Frage 5 enthalten); offen ist nur der Upload in Stud.IP.
 
 **Leseansicht:** [[Theo dõi dự án (VI)]] erklärt denselben Stand auf Vietnamesisch;
 `dashboard.html` im selben Ordner zeigt Countdown, Checkliste und die Rechner für N und κ.
@@ -73,6 +79,18 @@ verworfen: Model-Check mit `qwen2.5-coder:14b` scheitert (32k-Kontext, 5,14 Toke
 der Schedule lief nach Serverstopp 53 s verspätet an und meldete Erfolg ohne
 Ausführung. Messwerte und Bedingungen in [[Entscheidungen]].
 
+**Stand 22.11., 23:45 (WhatsApp, Screenshot):** Katarina meldet um **20:08**, alle Werte
+seien in der Tabelle; Sebastian lädt um **22:48** die Endfassung als DOCX (und im Google-Doc)
+hoch. Diese Endfassung unterscheidet sich vom Entwurf vom 21.11. nur durch die Titelzeile
+und den Tippfehler „brache“ → „brachte“; Frage 5 darin beschreibt **Sebastians** Rolle
+(Koordination, Moderation) und gilt nicht für die eigene Abgabe. **Offen:** prüfen, ob die
+eigenen `b1`-Werte nach 20:08 noch in die Zeile gekommen sind ([[Offene Punkte]]).
+Board-Link und Zeile 11 stehen in [[Rohdaten]]; die Zeile gilt mit ihren Werten
+(`meeting_min` 37, `zeit_auto_einrichtung` 25) als Gruppendatensatz. Die Abweichungen zu
+den Protokollen (41 Min., 30 Min.) sind dokumentiert, werden aber nicht angeglichen
+(Gruppenentscheidung 22.11.2026). Schreibregeln für alle
+weiteren `.tex`-Abgaben: [[Schreibregeln für .tex-Abgaben]].
+
 ## Stand je Person
 
 Rollen aus Übungszettel 2.2 ([[Gruppe 11]]) und dem Poll vom 15./16.11.2026
@@ -82,7 +100,7 @@ Zuweisung.
 
 | Person | Rolle (belegt) | Nächster Schritt | Frist |
 |---|---|---|---|
-| **Trung Do** | Qualitätssicherung · **Person C** | Schablone A+B für beide Protokolle, `b1` berechnen, 3.1-Review; eigene 3.1 als PDF | 22.11. 18:00 / 20:00; 24.11. |
+| **Trung Do** | Qualitätssicherung · **Person C** | Schablone A+B für beide Protokolle, `b1` berechnen, 3.1-Review; eigene 3.1 liegt als `.tex`/`.pdf` vor, nur noch hochladen | 22.11. 18:00 / 20:00; 24.11. |
 | Sebastian Stanzel | Gruppensprecher, Moderator | Koordination, 3.1-Entwurf, Review, Rohdaten-Zeile gegenprüfen | 22.11. 20:00 |
 | Katarina Mechnikova | Qualitätssicherung · **Conceptboard** | Ergebnisse ins Conceptboard eintragen; keine Bewertung | 22.11. 20:00; 23.11. 12:00 |
 | Simon Borsch | Messung und Methode · Person A | Manuelles Protokoll liegt vor; **Mitschreibzeit zu klären** (Meeting 41 Min.); bis 13:00 in WhatsApp | 22.11. 13:00 |
@@ -123,7 +141,7 @@ Die deutsche Sprechfassung für die Zusammenfassung der Sitzungen 2 und 3 liegt 
 | 02 | 1.2 „Wie bin ich vorgegangen und warum?" | 03.11.2026 | `…Sitzung02.tex` | abgegeben, **keine PDF gesichert** |
 | 03 | 2.1 „Was würde ich beim nächsten Mal anders machen?" | 10.11.2026 | `…Sitzung03.pdf` | abgegeben |
 | 04 | 2.2 „Was wollen wir eigentlich herausfinden?" | 17.11.2026 | `…Sitzung04.pdf` | abgegeben |
-| 05 | 3.1 „Wie messen wir, ob unsere Hypothese stimmt?" | 24.11.2026 | _Sebastian-Entwurf + Review_ | **offen**, eigene PDF fehlt |
+| 05 | 3.1 „Wie messen wir, ob unsere Hypothese stimmt?" | 24.11.2026 | `…Sitzung05.tex` / `.pdf` | **fertig**, Abgabe in Stud.IP offen |
 | 06 | 3.2 „Wir setzen um und dokumentieren." | 01.12.2026 | — | offen |
 
 Für das Gesamtportfolio braucht jede Seite eine PDF. Aus 01 und 02 lässt sich mit

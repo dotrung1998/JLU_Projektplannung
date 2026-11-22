@@ -68,10 +68,16 @@ für alle Gruppen und wird in Sitzung 7 zusammengeführt ([[Messplan]]).
   `Vollständigkeit in Prozent` ergänzt (manuell 18/23 = 78,3 %, automatisch 20/23 =
   87,0 %); DOCX und Lesefassung von A und B nach Dominiks Muster umbenannt. Skala Zufriedenheit:
   1–5 bestätigt; 45 %/70 % ohne Antwort offen.
+- 22.11.2026: Rohdaten-Zeile 11 von Katarina gilt unverändert (Gruppenentscheidung); die
+  vier IRR-Werte bleiben offen, weil acht Prozentwerte keine κ-Berechnung erlauben —
+  Rechnung und Befunde in `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
 
 - 22.11.2026: Nod (n8n Labs) real getestet — Docker-Stack und Ollama liefen, aber
   Model-Check und Schedule sind für die Automation unbrauchbar (Erfolg ohne Ausführung);
   **Entscheidung: GitHub Actions bleibt der einzige Scheduler** ([[Entscheidungen]]).
+- 22.11.2026: Eigene Fassung von Übungszettel 3.1 gesetzt — `.tex` und `.pdf` in
+  `05_Woche` (`PDA_Do_Trung_WS26-27_Sitzung05`), eine Seite, Individualteil als Person C;
+  Fragen 1–4 auf dem Stand der Gruppendiskussion, Frage 4 nur blinde Flecken.
 
 ## Landkarte
 

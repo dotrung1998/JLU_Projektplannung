@@ -16,7 +16,7 @@ Termin (15.12.2026). Vorgaben: [[Portfolio-Vorgaben]].
 | 02 | 1.2 / Sitzung 2 | rekonstruierter Projektplan, bewusst vs. ergeben | `…Sitzung02.tex` | Inhalt da, **PDF fehlt** |
 | 03 | 2.1 / Sitzung 3 | zweiter Projektplan, drei Änderungen, Prinzipien | `…Sitzung03.pdf` | fertig |
 | 04 | 2.2 / Sitzung 4 | Forschungsfrage, vier Hypothesen, Rollen, Plan | `…Sitzung04.pdf` | fertig |
-| 05 | 3.1 / Sitzung 5 | Operationalisierung, Testgütekriterien, blinde Flecken | — | **offen**, nur Sebastians Entwurf |
+| 05 | 3.1 / Sitzung 5 | Operationalisierung, Testgütekriterien, blinde Flecken | `…Sitzung05.tex` / `.pdf` | fertig, Abgabe in Stud.IP offen |
 | 06 | 3.2 / Sitzung 6 | Durchführung, Messwerte, IRR, Planvergleich | — | **offen**, Daten fehlen noch |
 | 07 | Sitzung 7 | Ergebnisdarstellung, statistische Kennwerte | — | Zettel folgt |
 | 08 | Sitzung 8 | IMRAD, Diskussion | — | Zettel folgt |
@@ -35,8 +35,8 @@ Bisherige Individualteile:
 
 - **2.2:** Qualitätssicherung mit Katarina; Zettel gegengelesen, Formulierungen und Format
   geprüft, Vollständigkeit der Vorgaben kontrolliert.
-- **3.1:** noch zu schreiben — naheliegend dieselbe Rolle plus die inhaltliche Prüfung der
-  Messvorgaben.
+- **3.1:** Person C, erste unabhängige Bewertung beider Protokolle (Schablone A und B,
+  `b1`), Prüfung der Messvorgaben gegen den Messplan und Gegenlesen des Entwurfs.
 - **3.2:** noch zu schreiben — Rolle bei Bewertung (voraussichtlich C) und Auswertung.
 
 ## Nächste Schritte (konkret)
@@ -46,8 +46,8 @@ Bisherige Individualteile:
    C bist, beide Schablonen für beide Protokolle ausfüllen ([[Messung 22-11]]).
 2. **Mo 23.11. vor 12:00:** wenn du C bist, eigene Werte in die Rohdaten-Zeile einbringen
    und gegenprüfen ([[Rohdaten]]).
-3. **Mo/Di 23.–24.11.:** eigene 3.1 als PDF setzen: Frage 1–4 aus dem Gruppenentwurf,
-   Frage 5 selbst; Datei `PDA_Do_Trung_WS26-27_Sitzung05.pdf`; in `05_Woche` legen.
+3. **erledigt 22.11.:** eigene 3.1 als `.tex` und `.pdf` in `05_Woche`
+   (`PDA_Do_Trung_WS26-27_Sitzung05`), eine Seite; offen ist nur der Upload in Stud.IP.
 4. **bis 01.12.:** 3.2 schreiben, IRR-Werte einsetzen, Planvergleich aus 2.2.
 5. **bis 15.12.:** PDFs aus 01 und 02 erzeugen, alle zehn Seiten zu einem Dokument
    zusammenführen, Deckblatt und Anhang ergänzen, abgeben.

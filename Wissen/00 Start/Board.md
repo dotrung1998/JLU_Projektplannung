@@ -26,7 +26,7 @@ Kette: ROLLEN → MEETING → PROTO-A/PROTO-B → BEWERT-C/BEWERT-D → ROHDATEN
 
 
 ## Doing
-- [ ] **UEZ31 · Übungszettel 3.1 abgeben** #person · fällig: 2026-11-24 · beleg: "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/PDA_Do_Trung*" — Entwurf von Sebastian liegt vor; Review bis 20:00; eigener individueller Abschnitt (Frage 5) und PDF fehlen · → [[Sitzung 05]] · [[Portfolio Trung]] · Beleg fehlt
+- [ ] **UEZ31 · Übungszettel 3.1 abgeben** #person · fällig: 2026-11-24 · beleg: "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/PDA_Do_Trung*" — eigene `.tex` und `.pdf` liegen vor (eine Seite, Frage 5 enthalten); offen ist nur der Upload in Stud.IP · → [[Sitzung 05]] · [[Portfolio Trung]] · Beleg vorhanden
 
 
 ## Done

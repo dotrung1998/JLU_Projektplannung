@@ -80,3 +80,11 @@ Ungewichtet wäre κ = 0,50 — die Gewichtung belohnt die fast richtigen Einstu
   <https://cran.r-project.org/web/packages/irr/irr.pdf>
 
 Beide URLs stehen auf dem Board der Sitzung 6 (Karte 19).
+
+## Stand 22.11.2026 — vier Werte noch offen
+
+Die acht Prozentwerte aus [[Rohdaten]] (Zeile 11) reichen **nicht** für κ: Sie sind
+Randverteilungen, κ braucht die gemeinsamen Einzelurteile. Arbeitsnotiz mit Rechnung,
+Rückrechnung auf Zähler und zwei Befunden (zweite Spalte nur mit N = 21 konsistent;
+`b2` enthält die Werte von C): `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
+Nötig sind **Ds Schablonen A und B**; danach sind die vier Werte in wenigen Minuten gesetzt.

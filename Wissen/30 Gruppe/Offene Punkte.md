@@ -61,6 +61,9 @@ Quelle: zwei Screenshots in `05_Woche-Portfolioabgabe/` (Katarina und Sebastian,
    `bewertende_unabhaengig = ja` (C = Trung, D = Dominik).
 6. **Fehlende BA-Fragen.** Nicht nachholen; als Limitation für den Vergleich manuell vs.
    KI dokumentieren. Die Lücken sind Teil des Ergebnisses, kein Grund für eine zweite Runde.
+7. **Sind Trungs `b1`-Werte in der Rohdaten-Zeile?** `Status: entschieden (22.11.2026)`.
+   Die Gruppe übernimmt die Zeile von Katarina unverändert ([[Rohdaten]]); die acht
+   Prozentwerte gelten mit `b1` = Trung und `b2` = Dominik. Keine Nachprüfung vor 3.2.
 
 ## Fragen, die die Gruppe am Sonntag beantworten sollte
 

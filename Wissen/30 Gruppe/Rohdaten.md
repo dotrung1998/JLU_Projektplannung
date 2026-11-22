@@ -57,6 +57,46 @@ Die **41 Minuten** sind die Meetingdauer (10:14–10:55), **nicht** die Mitschre
 `zeit_man_mitschreiben` bleibt offen, bis Simon eine eigene Stoppuhr-Zeit nennt; die
 Meetingdauer ersetzt diese Messung nicht.
 
+## Stand Conceptboard (Screenshot 22.11.2026, Zeile 11)
+
+**Board:** <https://whiteboard.academiccloud.de/collaboard/17183> (AcademicCloud
+Collaboard, Tabelle „Rohdaten“). Die Zeile ist laut Katarina (WhatsApp 20:08) vollständig.
+
+| Spalte | Wert |
+|---|---|
+| `gruppe` | 11 |
+| `n_personen` | 6 |
+| `meeting_min` | 37 |
+| `werkzeug` | Otter.ai / Google Gemini Neon High |
+| `werkzeug_art` | kommerziell |
+| `bewertende_unabhaengig` | ja |
+| `zeit_man_mitschreiben` | 35 min |
+| `zeit_man_nachbearbeitung` | 63 min |
+| `zeit_auto_einrichtung` | 25 min |
+| `zeit_auto_verarbeitung` | 10 min |
+| `zeit_auto_nachbearbeitung` | 20 min |
+| `vollst_man_b1` / `b2` | 66,6 % / 78,3 % |
+| `vollst_auto_b1` / `b2` | 95,2 % / 87,0 % |
+| `genau_man_b1` / `b2` | 53,6 % / 91,7 % |
+| `genau_auto_b1` / `b2` | 95,2 % / 97,5 % |
+
+### Abweichungen zu den Protokollen (entschieden: die Board-Zeile gilt)
+
+**Entscheidung 22.11.2026 (Gruppe).** Die Zeile von Katarina im Conceptboard gilt
+unverändert; die Gruppe übernimmt diese Werte und das Ergebnis. Es wird nichts angeglichen
+und nichts nachträglich korrigiert. Die Abweichungen bleiben als Beleg stehen, damit
+nachvollziehbar ist, worauf die eingetragenen Zahlen beruhen.
+
+- `meeting_min` **37** auf dem Board gegen **41** aus den Protokollen (10:14–10:55,
+  [[Messung 22-11]]). Eingetragen bleibt **37**.
+- `zeit_auto_einrichtung` **25** auf dem Board gegen **30** in Tianshus Angabe.
+  Eingetragen bleibt **25**.
+- `zeit_man_mitschreiben` **35** ist plausibel (Mitschreibzeit kürzer als die 41 Minuten
+  Meeting); eine eigene Stoppuhr-Zeit von Simon liegt nicht vor. Eingetragen bleibt **35**.
+- Die acht Prozentwerte gelten mit `b1` = Trung und `b2` = Dominik als eingetragen und
+  akzeptiert. Katarina meldete „alle Werte“ um **20:08**; Trungs Bewertungen gingen laut
+  WhatsApp erst danach raus (Sebastian antwortet 22:45/22:46). Keine Nachprüfung mehr.
+
 ## Was vor dem Eintragen geprüft werden muss
 
 - Sind die fünf Zeitwerte **auf volle Minuten aufgerundet** und stammen sie aus einer Uhr,
@@ -66,16 +106,17 @@ Meetingdauer ersetzt diese Messung nicht.
 - Sind `b1` und `b2` überall dieselben Personen?
 - Steht bei drei Personen im Meeting `nein` in `bewertende_unabhaengig` und ist N = 17?
 
-## Was noch fehlt (Stand 22.11.)
+## Was noch fehlt (Stand 22.11., 23:45)
 
-`zeit_man_mitschreiben`, `zeit_man_nachbearbeitung` und alle acht Prozentwerte. Die
-übrigen Werte stehen oben.
-Die Prozentwerte entstehen erst nach der unabhängigen Bewertung durch C und D
-([[Messung 22-11]]). Ziel: Zeile bis **22.11., 20:00**; harte Frist **23.11., 12:00**.
-Nicht teilweise ausfüllen.
+Nichts. Katarina meldet um **20:08**, die Zeile sei vollständig; die Werte stehen oben und
+gelten unverändert (Gruppenentscheidung 22.11.2026). Die Prozentwerte entstanden aus der
+unabhängigen Bewertung durch C und D ([[Messung 22-11]]). Harte Frist war **23.11., 12:00**;
+eine Nachlieferung ist nicht nötig.
 
 ## Nach dem Eintragen
 
 - Screenshot oder Kopie der Zeile in `Wissen/90 Anhänge/` legen (Nachweis).
-- Vier IRR-Werte berechnen und in `06_Woche` dokumentieren ([[Inter-Rater-Reliabilität]]).
+- Vier IRR-Werte: **offen** — die acht Prozentwerte reichen nicht, Ds Einzelurteile
+  fehlen. Rechnung, Spannen und Befunde in
+  `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md` ([[Inter-Rater-Reliabilität]]).
 - Die Zeile ist die Datengrundlage für Übungszettel 3.2, Frage 1 und 2 ([[Sitzung 06]]).
