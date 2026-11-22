@@ -9,3 +9,7 @@
 
 # Eigenes Schwesterprojekt mit eigenem Repository
 JLU Spezializierungsmodul/
+
+# Obsidian-Workspace-Zustand (nur lokal)
+.obsidian/workspace.json
+Wissen/.obsidian/workspace.json
