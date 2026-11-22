@@ -418,3 +418,21 @@ Organisationen und private/interne Repositories verfügbar).
 **Hinweis.** Öffentlich bedeutet: die im Vault kopierten Abgaben enthalten Matrikelnummern
 und Gruppennamen und sind jetzt öffentlich einsehbar; der frühere Grund für „privat“
 bleibt fachlich gültig und wird hier bewusst zurückgestellt.
+
+## 2026-11-22 — Actions verifiziert; launchd gestoppt
+
+**Entscheidung.** Zwei Testläufe auf GitHub Actions sind erfolgreich: `45067710806` und
+`45067933400` (jeweils success, `Discord: gesendet (HTTP 204)`, Commits `825ba6d` und
+`58ebc0e` zurückgeschrieben; der zweite Commit läuft unter `Trung Do
+<dotrung1998@gmail.com>`). Der LaunchAgent `com.projektplanung.pda.daily` wurde gestoppt
+(`launchctl bootout`) und die installierte Plist als
+`com.projektplanung.pda.daily.plist.disabled` gesichert; die Plist im Vault bleibt
+unverändert. Ab jetzt ist GitHub Actions der einzige Scheduler.
+
+**Grund.** Keine doppelten Discord-Berichte und keine konkurrierenden Commits mehr.
+
+**Verworfen.** launchd parallel weiterlaufen lassen (doppelte Berichte).
+
+**Hinweis.** Reaktivieren: `cp ~/Library/LaunchAgents/com.projektplanung.pda.daily.plist.disabled
+~/Library/LaunchAgents/com.projektplanung.pda.daily.plist` und
+`launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.projektplanung.pda.daily.plist`.
