@@ -451,3 +451,48 @@ im Tageslauf).
 Commit-Autoren anwenden; der CI-Guard macht Verstöße sichtbar, verhindert aber keinen
 direkten Push. Historische Commits (z. B. `825ba6d` als „Projektplanung“) bleiben
 unverändert.
+
+## 2026-11-22 — Nod als Scheduler verworfen
+
+**Entscheidung.** GitHub Actions bleibt der einzige Scheduler für den Tageslauf. Nod
+(n8n Labs, Commit `940c88a`, Apache-2.0, Research Preview) wird nicht als Ersatz
+eingesetzt; es bleibt höchstens ein optionaler lokaler Assistent.
+
+**Testaufbau.** Node 24.21.0 portabel (System-Node 24.19 unverändert), Docker 29.6.2,
+24 GB RAM, Nod aus dem Quellbaum, vier Container (Postgres, Workspace, Browser,
+Workspace-Netz), Ollama auf Port 11435 mit `qwen2.5-coder:14b`; kein bezahlter
+Model-Key, Onboarding ohne E-Mail.
+
+**Messwerte und Befunde.**
+- Erster Start 476 s (Docker-Build und Images), danach 16 s, 52 s und 10 s.
+- `llama-server` belegt 14,6 GB RSS; Modell-Load 43,9 s; Generierung 5,14 Token/s.
+- Modellkontext 32.768 Token, Nod verlangt mindestens 65.536; Ollama meldet
+  „requested context size too large for model“ und begrenzt auf 32.768.
+- Nod-Modelcheck: 885-Token-Prompt, nach 46,26 s abgebrochen; UI:
+  „The selected model is unavailable. Task: check. Model: compatible/qwen2.5-coder:14b.“
+- Schedule für 21:30:02Z: Nod war aus, also kein Lauf und keine Datei; nach Neustart
+  21:30:55Z holte Nod den Lauf 53 s verspätet nach. Der Turn endete 21:33:25Z als
+  `succeeded`, aber `/workspace/nod-proof.txt` fehlte; die Antwort war nur eine
+  allgemeine Onboarding-Empfehlung. Also Erfolg ohne Ausführung.
+- Workspace: `/workspace` leer, Python 3.11.2, git 2.39.5, `pdftotext`, kein `pandoc`;
+  `git ls-remote` auf das öffentliche Repo funktioniert. Kein Discord-Connector;
+  der Webhook liegt bewusst außerhalb des Repos.
+- GitHub Actions zum Vergleich: Run `45068450441` success, genau eine Discord-Zeile
+  im Ausführungsstep, Commit unter `Trung Do`.
+
+**Grund.** Der Tageslauf ist ein deterministischer Shell-/Git-Job; Nod ist ein
+modellgetriebener Agent mit Approval, braucht einen laufenden Host und lieferte im
+Test einen falschen Erfolg. GitHub Actions läuft dagegen um 8:00 auch bei geschlafenem
+Mac, kostenlos im öffentlichen Repo, mit reproduzierbarem Ergebnis.
+
+**Verworfen.** Nod als alleiniger Scheduler; Nod als primärer Discord-Kanal (kein
+Connector, Secret müsste in den Prompt); bezahlter Model-Key nur für diesen Test.
+
+**Bedingungen für eine spätere Nutzung als Nebenkanal.** Immer eingeschalteter Host
+(Mac mini/VPS), Modell mit mindestens 64k Kontext und zuverlässigen Tool-Calls (oder
+bezahlte API), Repo-Mount/Clone, sichere Übergabe des Discord-Webhooks, akzeptierte
+Approvals und keine kritischen Commits/Pushes über Nod.
+
+**Aufräumen.** Container, Volumes, `postgres:17-alpine`, Nod-Images und 8,486 GB
+Build-Cache entfernt; Docker wieder 32 Images/20,15 GB, Build-Cache 0 B. Keine
+Nod-Prozesse, Ports 4310/11435 frei; Arbeitsbaum sauber, keine Testdateien im Repo.

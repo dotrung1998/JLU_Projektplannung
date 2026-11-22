@@ -67,6 +67,12 @@ enthalten.
 **Leseansicht:** [[Theo dõi dự án (VI)]] erklärt denselben Stand auf Vietnamesisch;
 `dashboard.html` im selben Ordner zeigt Countdown, Checkliste und die Rechner für N und κ.
 
+**Automation (22.11.):** GitHub Actions bleibt der einzige Scheduler (Run
+`45068450441`, success, genau ein Discord-Bericht). Nod wurde real getestet und
+verworfen: Model-Check mit `qwen2.5-coder:14b` scheitert (32k-Kontext, 5,14 Token/s),
+der Schedule lief nach Serverstopp 53 s verspätet an und meldete Erfolg ohne
+Ausführung. Messwerte und Bedingungen in [[Entscheidungen]].
+
 ## Stand je Person
 
 Rollen aus Übungszettel 2.2 ([[Gruppe 11]]) und dem Poll vom 15./16.11.2026

@@ -69,6 +69,10 @@ für alle Gruppen und wird in Sitzung 7 zusammengeführt ([[Messplan]]).
   87,0 %); DOCX und Lesefassung von A und B nach Dominiks Muster umbenannt. Skala Zufriedenheit:
   1–5 bestätigt; 45 %/70 % ohne Antwort offen.
 
+- 22.11.2026: Nod (n8n Labs) real getestet — Docker-Stack und Ollama liefen, aber
+  Model-Check und Schedule sind für die Automation unbrauchbar (Erfolg ohne Ausführung);
+  **Entscheidung: GitHub Actions bleibt der einzige Scheduler** ([[Entscheidungen]]).
+
 ## Landkarte
 
 | Notiz | Inhalt |
