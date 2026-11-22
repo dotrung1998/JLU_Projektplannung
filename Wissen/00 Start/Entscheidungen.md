@@ -436,3 +436,18 @@ unverändert. Ab jetzt ist GitHub Actions der einzige Scheduler.
 **Hinweis.** Reaktivieren: `cp ~/Library/LaunchAgents/com.projektplanung.pda.daily.plist.disabled
 ~/Library/LaunchAgents/com.projektplanung.pda.daily.plist` und
 `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.projektplanung.pda.daily.plist`.
+
+## 2026-11-22 — Autor-Guard und strikte main-Regeln
+
+**Entscheidung.** `main` ist jetzt ohne Bypass geschützt (Ruleset `27857534`: `deletion`,
+`non_fast_forward`); Force-Push und Löschen werden auch für den Admin abgelehnt. Commits
+prüft `Wissen/_tools/author_guard.py`: erlaubt ist nur `Trung Do
+<dotrung1998@gmail.com>`, verboten sind `Co-authored-by`, Bot-Adressen und Tool-Trailer.
+Die Prüfung läuft lokal (`.githooks/pre-commit`, `commit-msg`, `pre-push`, aktiv über
+`core.hooksPath=.githooks`) und in GitHub Actions (`author-guard.yml` sowie vor dem Push
+im Tageslauf).
+
+**Grenze.** GitHub kann auf benutzereigenen Repositories keinen Ruleset-Check auf
+Commit-Autoren anwenden; der CI-Guard macht Verstöße sichtbar, verhindert aber keinen
+direkten Push. Historische Commits (z. B. `825ba6d` als „Projektplanung“) bleiben
+unverändert.

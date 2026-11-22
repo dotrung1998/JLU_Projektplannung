@@ -65,6 +65,8 @@ jobs:
           git commit \
             -m "Tageslauf $(date +%Y-%m-%d): Quellen eingelesen, Board fortgeschrieben" \
             -m "- ingest.py und board_sync.py ausgeführt, Status- und Board-Blöcke aktualisiert"
+          # Autor/Trailer des eigenen Commits prüfen, bevor er das Repo verlässt.
+          python3 Wissen/_tools/author_guard.py --commit HEAD
           # Neueste Commits von main einbeziehen, damit der Push nicht abgewiesen wird.
           git pull --rebase origin main || {
             echo "::warning::git pull --rebase fehlgeschlagen – zweiter Versuch in 5 s."

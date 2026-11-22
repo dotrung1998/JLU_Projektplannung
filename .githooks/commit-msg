@@ -1,0 +1,5 @@
+#!/bin/sh
+# Lokale Sperre: keine Commit-Nachricht mit Co-authored-by oder Bot-Trailern.
+set -eu
+root=$(git rev-parse --show-toplevel)
+exec python3 "$root/Wissen/_tools/author_guard.py" --message-file "$1" --config
