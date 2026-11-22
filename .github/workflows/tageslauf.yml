@@ -78,9 +78,8 @@ jobs:
       - name: Discord-Versand prüfen
         run: |
           last=$(grep '^Discord:' Wissen/_tools/daily.log | tail -1 || true)
-          echo "$last"
           case "$last" in
-            "Discord: gesendet"*) ;;
+            "Discord: gesendet"*) echo "Bestätigt: $last" ;;
             *)
               echo "::error::Discord-Bericht wurde nicht gesendet (Secret prüfen)."
               exit 1
