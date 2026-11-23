@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-22 21:48",
+  "stand": "2026-11-23 01:45",
   "dateien": [
     {
       "pfad": ".gitignore",
@@ -182,6 +182,12 @@
       "grund": ""
     },
     {
+      "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md",
+      "status": "notiz",
+      "ziel": "40 Portfolio/Abgaben/Sitzung 06 (Quelle).md",
+      "grund": ""
+    },
+    {
       "pfad": "Lecture_07-MDA-15_Projektplanung_Data_Analytics/archive_filelist.csv",
       "status": "ausgeschlossen",
       "ziel": "",
@@ -201,11 +207,12 @@
     "02",
     "03",
     "04",
-    "05"
+    "05",
+    "06"
   ],
   "wochen_ohne_frist": [],
   "zaehlung": {
-    "notiz": 24,
+    "notiz": 25,
     "manuell": 2,
     "ausgeschlossen": 6,
     "unbekannt": 0

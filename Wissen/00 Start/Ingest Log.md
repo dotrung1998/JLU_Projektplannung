@@ -6,6 +6,7 @@ titel: Ingest Log
 
 | Zeitpunkt | Aktion | Quelle | Ziel |
 |---|---|---|---|
+| 2026-11-23 01:45 | neu | `Lecture/06_Woche-Portfolioabgabe` | `40 Portfolio/Abgaben/Sitzung 06 (Quelle).md` |
 | 2026-11-22 21:43 | geändert | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf` | `30 Gruppe/Quellen/Gruppenmeeting Leitfragen PDA WiSe26-27 (Quelle).md` |
 | 2026-11-22 21:43 | geändert | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf` | `30 Gruppe/Quellen/Messplan-Messvorgaben Gruppenprojekt PDA WiSe26-27 (Quelle).md` |
 | 2026-11-22 21:43 | geändert | `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_A_Vollstaendigkeit_PDA_WiSe26-27.docx` | `30 Gruppe/Quellen/Schablone A Vollstaendigkeit PDA WiSe26-27 (Quelle).md` |

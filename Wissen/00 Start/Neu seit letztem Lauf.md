@@ -1,35 +1,26 @@
 ---
 titel: Neu seit letztem Lauf
-stand: 2026-11-22
+stand: 2026-11-23
 ---
 
 # Neu seit letztem Lauf
 
-Lauf: 2026-11-22 21:43
+Lauf: 2026-11-23 01:45
 
-## Neu (0)
+## Neu (1)
+
+- `Lecture/06_Woche-Portfolioabgabe`
+
+## Geändert (0)
 
 _nichts_
 
-## Geändert (10)
-
-- `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Gruppenmeeting_Leitfragen_PDA_WiSe26-27.pdf`
-- `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Messplan-Messvorgaben_Gruppenprojekt_PDA_WiSe26-27.pdf`
-- `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_A_Vollstaendigkeit_PDA_WiSe26-27.docx`
-- `00_Materialien/Planungsdokumente_für_Gruppenarbeit/Schablone_B_Genauigkeit_PDA_WiSe26-27.docx`
-- `00_Materialien/Übungszettel/PDA_Uebungszettel_1_WiSe26-27.pdf`
-- `00_Materialien/Übungszettel/PDA_Uebungszettel_2_WiSe26-27.pdf`
-- `00_Materialien/Übungszettel/PDA_Uebungszettel_3_WiSe26-27.pdf`
-- `00_Materialien/Übungszettel/PDA_Uebungszettel_4_WiSe26-27.pdf`
-- `00_Materialien/Übungszettel/PDA_Uebungszettel_5_WiSe26-27.pdf`
-- `00_Materialien/Übungszettel/PDA_Uebungszettel_6_WiSe26-27.pdf`
-
-## Unverändert: 14 Quellen
+## Unverändert: 24 Quellen
 
 ## Abdeckung
 
-- Quellen gesamt: **32**
-- durch Notiz: 24 · manuell beschrieben: 2 · ausgeschlossen: 6 · **unbekannt: 0**
+- Quellen gesamt: **33**
+- durch Notiz: 25 · manuell beschrieben: 2 · ausgeschlossen: 6 · **unbekannt: 0**
 
 Alle Quellen sind erfasst oder begründet ausgeschlossen.
 

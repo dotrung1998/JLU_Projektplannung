@@ -14,10 +14,10 @@ Karten tragen `#person`, `#team` oder `#auto`, optional `fällig:` und `beleg:`.
 Kette: ROLLEN → MEETING → PROTO-A/PROTO-B → BEWERT-C/BEWERT-D → ROHDATEN → IRR.
 
 ## To Do
-- [ ] **BEWERT-C · Schablone A und B für beide Protokolle** #team · fällig: 2026-11-22 — C = Trung; ohne Abgleich mit D, Einzelwerte je Inhalt aufbewahren; Ziel 18:00 · braucht: PROTO-A, PROTO-B · → [[Rollenvote 15-11]] · [[Messplan]]
-- [ ] **BEWERT-D · Schablone A und B für beide Protokolle** #team · fällig: 2026-11-22 — D = Dominik; beginnt nach Vorliegen beider Protokolle, unabhängig von C; Ziel 18:00 · braucht: PROTO-A, PROTO-B · → [[Rollenvote 15-11]] · [[Messplan]]
+- [ ] **BEWERT-C · Schablone A und B für beide Protokolle** #team · fällig: 2026-11-22 — C = Trung; ohne Abgleich mit D, Einzelwerte je Inhalt aufbewahren; Ziel 18:00 · braucht: PROTO-A, PROTO-B · → [[Rollenvote 15-11]] · [[Messplan]] · überfällig (1 Tag)
+- [ ] **BEWERT-D · Schablone A und B für beide Protokolle** #team · fällig: 2026-11-22 — D = Dominik; beginnt nach Vorliegen beider Protokolle, unabhängig von C; Ziel 18:00 · braucht: PROTO-A, PROTO-B · → [[Rollenvote 15-11]] · [[Messplan]] · überfällig (1 Tag)
 - [ ] **ROHDATEN · Zeile Gruppe 11 im Conceptboard** #team · fällig: 2026-11-23 — fünf Zeitwerte, acht Prozentwerte, Werkzeug, Bewertende unabhängig ja/nein; b1 = Trung, b2 = Dominik; Katarina trägt ein; Ziel 20:00, harte Frist 23.11. 12:00 · braucht: BEWERT-C, BEWERT-D · → [[Rollenvote 15-11]] · [[Rohdaten]]
-- [ ] **REVIEW31 · 3.1-Entwurf gegenlesen und Änderungen vorschlagen** #team · fällig: 2026-11-22 — alle bis 20:00; Abgabe am Abend; eigene Fassung weiter bis 24.11. · → [[Sitzung 05]] · [[Portfolio Trung]]
+- [ ] **REVIEW31 · 3.1-Entwurf gegenlesen und Änderungen vorschlagen** #team · fällig: 2026-11-22 — alle bis 20:00; Abgabe am Abend; eigene Fassung weiter bis 24.11. · → [[Sitzung 05]] · [[Portfolio Trung]] · überfällig (1 Tag)
 - [ ] **IRR · Po, Pe, κ und gewichtetes κ je Variable** #team · fällig: 2026-12-01 — vier IRR-Werte mit Po und N berichten; Genauigkeits-IRR nur über die Schnittmenge · braucht: ROHDATEN · → [[Inter-Rater-Reliabilität]]
 - [ ] **UEZ32 · Übungszettel 3.2 abgeben** #person · fällig: 2026-12-01 — Durchführung, fünf Einzelzeiten und Summen, Schwierigkeiten, Vergleich mit dem Plan · → [[Sitzung 06]]
 - [ ] **ANONYM · Beide Protokolle anonymisieren** #person · fällig: 2026-12-15 — Namen durch Person A–D ersetzen, persönliche Daten entfernen, Inhalt unverändert · → [[Anhang-Checkliste]]
@@ -26,7 +26,7 @@ Kette: ROLLEN → MEETING → PROTO-A/PROTO-B → BEWERT-C/BEWERT-D → ROHDATEN
 
 
 ## Doing
-- [ ] **UEZ31 · Übungszettel 3.1 abgeben** #person · fällig: 2026-11-24 · beleg: "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/PDA_Do_Trung*" — eigene `.tex` und `.pdf` liegen vor (eine Seite, Frage 5 enthalten); offen ist nur der Upload in Stud.IP · → [[Sitzung 05]] · [[Portfolio Trung]] · Beleg vorhanden
+- [ ] **UEZ31 · Übungszettel 3.1 abgeben** #person · fällig: 2026-11-24 · beleg: "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/PDA_Do_Trung*" — eigene `.tex` und `.pdf` liegen vor (eine Seite, Frage 5 enthalten); offen ist nur der Upload in Stud.IP · → [[Sitzung 05]] · [[Portfolio Trung]] · Beleg fehlt
 
 
 ## Done

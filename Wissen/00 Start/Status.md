@@ -28,17 +28,17 @@ Dokumente. Letzter Termin ist der 15.12.2026; die Frist vorher beim Dozenten erf
 ([[Offene Entscheidungen]]).
 
 <!-- AUTO:START -->
-**Fristen (automatisch, Stand 2026-11-22)**
+**Fristen (automatisch, Stand 2026-11-23)**
 
 | Termin | Was | Abstand | Wer |
 |---|---|---|---|
-| 2026-11-22, 10:00 | Gruppenmeeting Gruppe 11 (Datenerhebung) | **heute** | team |
-| 2026-11-23, 12:00 | Rohdaten-Zeile Gruppe 11 im Conceptboard | morgen | team |
-| 2026-11-24 | Abgabe Übungszettel 3.1 (Ordner 05) | in 2 Tagen | person |
-| 2026-12-01 | Abgabe Übungszettel 3.2 (Ordner 06) und vier IRR-Werte | in 9 Tagen | person |
-| 2026-12-04, 10:00 | Sitzung 8: IMRAD und Diskussion, digital | in 12 Tagen | — |
-| 2026-12-08 | Sitzung 9: KI-Tools im akademischen Arbeiten I | in 16 Tagen | — |
-| 2026-12-15 | Gesamtportfolio in Stud.IP abgeben | in 23 Tagen | person |
+| 2026-11-22, 10:00 | Gruppenmeeting Gruppe 11 (Datenerhebung) | **überfällig seit 1 T.** | team |
+| 2026-11-23, 12:00 | Rohdaten-Zeile Gruppe 11 im Conceptboard | **heute** | team |
+| 2026-11-24 | Abgabe Übungszettel 3.1 (Ordner 05) | morgen | person |
+| 2026-12-01 | Abgabe Übungszettel 3.2 (Ordner 06) und vier IRR-Werte | in 8 Tagen | person |
+| 2026-12-04, 10:00 | Sitzung 8: IMRAD und Diskussion, digital | in 11 Tagen | — |
+| 2026-12-08 | Sitzung 9: KI-Tools im akademischen Arbeiten I | in 15 Tagen | — |
+| 2026-12-15 | Gesamtportfolio in Stud.IP abgeben | in 22 Tagen | person |
 
 Board: 10 von 20 Karten erledigt. Details in [[Board]], Quellenstand in [[Abgaben (auto)]].
 <!-- AUTO:END -->

@@ -552,3 +552,16 @@ Status: unverändert
 Board-Struktur: ok (Kanban-Plugin)
 ---
 Discord: gesendet (HTTP 204)
+=== 2026-11-23 01:45:23 ===
+Lauf 2026-11-23 01:45
+  neu:         1
+  geändert:    0
+  unverändert: 24
+  Abgaben-Tabelle aktualisiert: 10 Kurs/Abgaben (auto).md
+  Abdeckung:   25 Notiz, 2 manuell, 6 ausgeschlossen, 0 unbekannt
+---
+Board: geändert
+Status: geändert
+Board-Struktur: ok (Kanban-Plugin)
+---
+Discord: gesendet (HTTP 204)
