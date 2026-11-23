@@ -29,7 +29,7 @@ Kette: ROLLEN → MEETING → PROTO-A/PROTO-B → BEWERT-C/BEWERT-D → ROHDATEN
 
 
 ## Done
-- [x] **UEZ31 · Übungszettel 3.1 abgeben** #person · fällig: 2026-11-24 · beleg: "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/PDA_Do_Trung*" — eigene `.tex` und `.pdf` liegen vor (eine Seite, Frage 5 enthalten); korrekte PDF am 23.11. in Stud.IP hochgeladen; falsche Datei liegt noch im Abgabeordner, Klärung per Mail an Dr. Busse · → [[Sitzung 05]] · [[Portfolio Trung]] · Beleg vorhanden
+- [x] **UEZ31 · Übungszettel 3.1 abgeben** #person · fällig: 2026-11-24 · beleg: "Lecture_07-MDA-15_Projektplanung_Data_Analytics/05_Woche-Portfolioabgabe/PDA_Do_Trung*" — eigene `.tex` und `.pdf` liegen vor (eine Seite, Frage 5 enthalten); korrekte PDF am 23.11. in Stud.IP hochgeladen; falsche Datei liegt noch im Abgabeordner, Klärung per Mail an Dr. Busse · → [[Sitzung 05]] · [[Portfolio Trung]] · Beleg fehlt
 - [x] **TOOL · Otter.ai: Version, Art und Prompt dokumentieren** #team — geklärt am 22.11.: Otter.ai Pro Lite + Google Gemini Neon High; kommerziell; 30/10/20 Min.; Prompt in [[Aufnahme Auto Tianshu]] · → [[Rohdaten]]
 - [x] **PROTO-A · Manuelles Protokoll fertigstellen** #team — DOCX liegt vor; 10:14–10:55 (41 Min.); Nachbearbeitungszeit offen · → [[Manuelles Protokoll 22-11]]
 - [x] **PROTO-B · Automatisches Protokoll fertigstellen** #team — DOCX liegt vor; Otter.ai Pro Lite + Gemini; 30/10/20 Min. · → [[Aufnahme Auto Tianshu]]
