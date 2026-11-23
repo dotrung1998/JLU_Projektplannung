@@ -1,6 +1,6 @@
 ---
 titel: Status
-stand: 2026-11-22
+stand: 2026-11-23
 ---
 
 # Status
@@ -14,7 +14,7 @@ stand: 2026-11-22
 | So 22.11.2026, 18:00 | Bewertung C/D abgeschlossen (Ziel) | ☐ |
 | So 22.11.2026, 20:00 | Review 3.1 + Änderungen; Abgabe am Abend | ☐ |
 | Mo 23.11.2026, 12:00 | Rohdaten-Zeile Gruppe 11 im Conceptboard | ☐ |
-| Di 24.11.2026 | Abgabe Übungszettel 3.1 (Ordner `05_Woche`) + Sitzung 7 | ☐ |
+| Di 24.11.2026 | Abgabe Übungszettel 3.1 (Ordner `05_Woche`) + Sitzung 7 | ☑ 23.11. hochgeladen |
 | Di 01.12.2026 | Abgabe Übungszettel 3.2 (Ordner `06_Woche`) + vier IRR-Werte | ☐ |
 | Fr 04.12.2026, 10–12 | Sitzung 8, digital (verschoben vom 01.12.) | ☐ |
 | Di 08.12.2026 | Sitzung 9: KI-Tools im akademischen Arbeiten I | ☐ |
@@ -32,15 +32,15 @@ Dokumente. Letzter Termin ist der 15.12.2026; die Frist vorher beim Dozenten erf
 
 | Termin | Was | Abstand | Wer |
 |---|---|---|---|
-| 2026-11-22, 10:00 | Gruppenmeeting Gruppe 11 (Datenerhebung) | **überfällig seit 1 T.** | team |
+| 2026-11-22, 10:00 | Gruppenmeeting Gruppe 11 (Datenerhebung) | erledigt 22.11.2026 | team |
 | 2026-11-23, 12:00 | Rohdaten-Zeile Gruppe 11 im Conceptboard | **heute** | team |
-| 2026-11-24 | Abgabe Übungszettel 3.1 (Ordner 05) | morgen | person |
+| 2026-11-24 | Abgabe Übungszettel 3.1 (Ordner 05) | erledigt 23.11.2026 | person |
 | 2026-12-01 | Abgabe Übungszettel 3.2 (Ordner 06) und vier IRR-Werte | in 8 Tagen | person |
 | 2026-12-04, 10:00 | Sitzung 8: IMRAD und Diskussion, digital | in 11 Tagen | — |
 | 2026-12-08 | Sitzung 9: KI-Tools im akademischen Arbeiten I | in 15 Tagen | — |
 | 2026-12-15 | Gesamtportfolio in Stud.IP abgeben | in 22 Tagen | person |
 
-Board: 10 von 20 Karten erledigt. Details in [[Board]], Quellenstand in [[Abgaben (auto)]].
+Board: 11 von 20 Karten erledigt. Details in [[Board]], Quellenstand in [[Abgaben (auto)]].
 <!-- AUTO:END -->
 
 ## Nächste Aktion
@@ -68,8 +68,9 @@ in `06_Woche-Portfolioabgabe/IRR_Kappa_Notiz_3.2.md`.
 **Dienstag 24.11.:** eigene Fassung von Übungszettel 3.1 als PDF abgeben. Der Entwurf in
 `05_Woche` ist von Sebastian, nicht die eigene Abgabe; Inhalt übernehmen ist richtig, aber
 die Datei muss `PDA_Do_Trung_WS26-27_Sitzung05.pdf` heißen und den individuellen Abschnitt
-enthalten. **Stand 22.11., 23:25:** `.tex` und `.pdf` liegen im Ordner (eine Seite,
-Frage 5 enthalten); offen ist nur der Upload in Stud.IP.
+enthalten. **Stand 23.11.:** Die korrekte PDF ist in Stud.IP hochgeladen; im Abgabeordner
+liegt weiterhin eine versehentlich hochgeladene falsche Datei, die nur der Dozent
+entfernen kann (Mail an Dr. Busse).
 
 **Leseansicht:** [[Theo dõi dự án (VI)]] erklärt denselben Stand auf Vietnamesisch;
 `dashboard.html` im selben Ordner zeigt Countdown, Checkliste und die Rechner für N und κ.
@@ -101,7 +102,7 @@ Zuweisung.
 
 | Person | Rolle (belegt) | Nächster Schritt | Frist |
 |---|---|---|---|
-| **Trung Do** | Qualitätssicherung · **Person C** | Schablone A+B für beide Protokolle, `b1` berechnen, 3.1-Review; eigene 3.1 liegt als `.tex`/`.pdf` vor, nur noch hochladen | 22.11. 18:00 / 20:00; 24.11. |
+| **Trung Do** | Qualitätssicherung · **Person C** | Schablone A+B für beide Protokolle, `b1` berechnen, 3.1-Review; eigene 3.1 am 23.11. hochgeladen | 22.11. 18:00 / 20:00; 24.11. |
 | Sebastian Stanzel | Gruppensprecher, Moderator | Koordination, 3.1-Entwurf, Review, Rohdaten-Zeile gegenprüfen | 22.11. 20:00 |
 | Katarina Mechnikova | Qualitätssicherung · **Conceptboard** | Ergebnisse ins Conceptboard eintragen; keine Bewertung | 22.11. 20:00; 23.11. 12:00 |
 | Simon Borsch | Messung und Methode · Person A | Manuelles Protokoll liegt vor; **Mitschreibzeit zu klären** (Meeting 41 Min.); bis 13:00 in WhatsApp | 22.11. 13:00 |
@@ -142,7 +143,7 @@ Die deutsche Sprechfassung für die Zusammenfassung der Sitzungen 2 und 3 liegt 
 | 02 | 1.2 „Wie bin ich vorgegangen und warum?" | 03.11.2026 | `…Sitzung02.tex` | abgegeben, **keine PDF gesichert** |
 | 03 | 2.1 „Was würde ich beim nächsten Mal anders machen?" | 10.11.2026 | `…Sitzung03.pdf` | abgegeben |
 | 04 | 2.2 „Was wollen wir eigentlich herausfinden?" | 17.11.2026 | `…Sitzung04.pdf` | abgegeben |
-| 05 | 3.1 „Wie messen wir, ob unsere Hypothese stimmt?" | 24.11.2026 | `…Sitzung05.tex` / `.pdf` | **fertig**, Abgabe in Stud.IP offen |
+| 05 | 3.1 „Wie messen wir, ob unsere Hypothese stimmt?" | 24.11.2026 | `…Sitzung05.tex` / `.pdf` | **abgegeben 23.11.** (korrekte PDF; falsche Datei noch im Ordner) |
 | 06 | 3.2 „Wir setzen um und dokumentieren." | 01.12.2026 | — | offen |
 
 Für das Gesamtportfolio braucht jede Seite eine PDF. Aus 01 und 02 lässt sich mit

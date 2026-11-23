@@ -79,6 +79,11 @@ Das Skript schreibt nur:
 - optional einen kurzen Discord-Bericht; der Webhook liegt in
   `~/.config/projektplanung/discord-webhook`, nie im Vault
 
+`Wissen/_tools/fristen.json` ist die Fristenliste. Ein Eintrag mit `"erledigt":
+"YYYY-MM-DD"` gilt als abgeschlossen: der Statusblock zeigt `erledigt …`, der
+Discord-Bericht lässt ihn aus „Fällig" weg. Ohne dieses Feld bleibt ein vergangener
+Termin als „überfällig" stehen.
+
 Der LaunchAgent startet `daily_guard.sh`: der Guard holt einen Lauf nach, sobald für heute
 noch keiner in `daily.log` steht (Login, Aufwachen, alle 30 Minuten). Scheitert `ingest.py`
 oder `board_sync.py`, gibt es eine macOS-Mitteilung, einen ❌-Bericht und Exit-Code ≠ 0;

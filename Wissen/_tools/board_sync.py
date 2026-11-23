@@ -6,6 +6,8 @@ Regeln:
            verschwindet der Beleg, wird das Häkchen zurückgenommen.
   #person und #team werden nie automatisch abgehakt. Sie bekommen nur den Vermerk
            `· Beleg vorhanden` / `· Beleg fehlt` und `· überfällig (N Tage)`.
+  Fristen aus `fristen.json` mit `"erledigt": "YYYY-MM-DD"` gelten als abgeschlossen;
+  der Statusblock zeigt dann `erledigt TT.MM.JJJJ` statt „überfällig"/„heute".
   Ohne Änderung wird keine Datei geschrieben.
 
 Aufruf:
@@ -210,16 +212,20 @@ def offene_fristen() -> list:
 def status_block() -> str:
     rows = []
     for item in load_fristen():
-        delta = days_until(item["datum"])
         when = item["datum"].replace("T", ", ")
-        if delta < 0:
-            state = f"**überfällig seit {-delta} T.**"
-        elif delta == 0:
-            state = "**heute**"
-        elif delta == 1:
-            state = "morgen"
+        done = item.get("erledigt", "")
+        if done:
+            state = f"erledigt {done[8:10]}.{done[5:7]}.{done[0:4]}"
         else:
-            state = f"in {delta} Tagen"
+            delta = days_until(item["datum"])
+            if delta < 0:
+                state = f"**überfällig seit {-delta} T.**"
+            elif delta == 0:
+                state = "**heute**"
+            elif delta == 1:
+                state = "morgen"
+            else:
+                state = f"in {delta} Tagen"
         rows.append(f"| {when} | {item['titel']} | {state} | {item['wer']} |")
 
     done = total = 0

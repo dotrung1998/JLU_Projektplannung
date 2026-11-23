@@ -109,6 +109,8 @@ def faellige(limit: int = 4) -> list:
     today = date.today()
     rows = []
     for item in sorted(items, key=lambda entry: entry.get("datum", "")):
+        if item.get("erledigt"):
+            continue
         try:
             delta = (datetime.fromisoformat(item["datum"]).date() - today).days
         except (KeyError, ValueError):

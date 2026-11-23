@@ -79,6 +79,12 @@ für alle Gruppen und wird in Sitzung 7 zusammengeführt ([[Messplan]]).
 - 22.11.2026: Eigene Fassung von Übungszettel 3.1 gesetzt — `.tex` und `.pdf` in
   `05_Woche` (`PDA_Do_Trung_WS26-27_Sitzung05`), eine Seite, Individualteil als Person C;
   Fragen 1–4 auf dem Stand der Gruppendiskussion, Frage 4 nur blinde Flecken.
+- 23.11.2026: Fristenliste kennt einen Erledigt-Zustand (`"erledigt"` in
+  `_tools/fristen.json`); das gelaufene Gruppenmeeting vom 22.11. ist eingetragen und
+  erscheint nicht mehr als „überfällig" ([[Entscheidungen]]).
+- 23.11.2026: Korrekte 3.1-PDF (`PDA_Do_Trung_WS26-27_Sitzung05.pdf`) in Stud.IP
+  hochgeladen; eine versehentlich hochgeladene falsche Datei liegt weiter im Abgabeordner
+  und kann nur der Dozent entfernen (Mail an Dr. Busse vorbereitet).
 
 ## Landkarte
 

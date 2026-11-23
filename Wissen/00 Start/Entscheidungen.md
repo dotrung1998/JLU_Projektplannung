@@ -588,3 +588,22 @@ berichtete, der erste steht als Sensitivität daneben.
 **Offen.** Ds Zustimmung zur Basis N = 23; warum seine Schablone B Item 8 automatisch mit 1
 bewertet, Schablone A es aber als nicht erfasst markiert (ändert κ nicht, Item 8 liegt
 nicht in der Schnittmenge).
+
+## 2026-11-23 — Fristen tragen einen Erledigt-Zustand
+
+**Entscheidung.** `Wissen/_tools/fristen.json` erlaubt je Eintrag ein Feld
+`"erledigt": "YYYY-MM-DD"`. Ist es gesetzt, zeigt der Statusblock `erledigt TT.MM.JJJJ`
+statt „überfällig"/„heute"/„morgen", und `discord_notify.py` lässt den Eintrag aus der
+Liste „Fällig (bis 4 Tage)" weg. Das Gruppenmeeting vom 22.11. ist mit
+`erledigt: 2026-11-22` eingetragen.
+
+**Grund.** Der Discord-Bericht vom 23.11. 01:45 führte das gelaufene Meeting weiter als
+„überfällig seit 1 T.", weil die Liste nur das Datum kannte. Erledigte Termine sollen aus
+dem Bericht verschwinden, offene und überfällige sichtbar bleiben.
+
+**Verworfen.** Erledigte Einträge aus `fristen.json` löschen (die History ginge verloren,
+und der Termin fehlte im Statusblock); den Erledigt-Zustand aus den Board-Karten ableiten
+(dann hinge die Frist an einer zweiten Datei und an Karten, die es nicht für jede Frist
+gibt).
+
+**Grenze.** `erledigt` wird von Hand gesetzt; die Automatik erkennt es nicht selbst.
