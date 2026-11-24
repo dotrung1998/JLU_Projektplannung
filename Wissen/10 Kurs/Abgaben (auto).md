@@ -1,12 +1,12 @@
 ---
 titel: Abgaben (auto)
-stand: 2026-11-23
+stand: 2026-11-24
 automatisch: true
 ---
 
 # Abgaben (automatisch)
 
-Lauf: 2026-11-23 01:45. Quelle: `Lecture_07-MDA-15_Projektplanung_Data_Analytics/`.
+Lauf: 2026-11-24 19:25. Quelle: `Lecture_07-MDA-15_Projektplanung_Data_Analytics/`.
 
 | Woche | Zettel | Fällig | Dateien | Stand |
 |---|---|---|---|---|
