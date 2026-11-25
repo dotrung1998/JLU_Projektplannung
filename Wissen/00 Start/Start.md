@@ -1,6 +1,6 @@
 ---
 titel: Start
-stand: 2026-11-22
+stand: 2026-11-25
 status: aktiv
 ---
 
@@ -12,6 +12,18 @@ status: aktiv
 > đã xong (10:14–10:55, n = 6); hai protokolle đã có, **Bewertung 18:00, Review 3.1 20:00**,
 > **Rohdaten trước thứ Hai 23.11 12:00**, **nộp Übungszettel 3.1 (thư mục 05) trước thứ Ba
 > 24.11**. Bản trong `05_Woche` là bản nháp của **Sebastian**, chưa phải bài của bạn.
+
+## Sitzungsbeginn
+
+```bash
+bash "Wissen/_tools/sync_pull.sh"
+```
+
+Das Skript holt `main` und spult nur per Fast-Forward vor; es committet, pusht und
+stasht nichts. Es steht am Anfang jeder Sitzung, vor dem ersten Lesen und Schreiben,
+weil diese Cloud-Kopie einen Push vom Rechner erst nach einem Fetch sieht. Kann das
+Skript selbst nicht fetchen, vorher den Fetch über die Git-Integration ausführen und
+mit `--no-fetch` starten.
 
 ## Worum es geht
 
@@ -85,6 +97,9 @@ für alle Gruppen und wird in Sitzung 7 zusammengeführt ([[Messplan]]).
 - 23.11.2026: Korrekte 3.1-PDF (`PDA_Do_Trung_WS26-27_Sitzung05.pdf`) in Stud.IP
   hochgeladen; eine versehentlich hochgeladene falsche Datei liegt weiter im Abgabeordner
   und kann nur der Dozent entfernen (Mail an Dr. Busse vorbereitet).
+- 25.11.2026: Sitzungsbeginn ist ein Skript — `bash "Wissen/_tools/sync_pull.sh"` holt
+  `main` per Fetch und Fast-Forward, bevor gelesen wird; `daily.sh` und `daily_guard.sh`
+  bestimmen die Wurzel jetzt über `git rev-parse --show-toplevel` ([[Entscheidungen]]).
 
 ## Landkarte
 

@@ -1,6 +1,6 @@
 ---
 titel: Entscheidungen
-stand: 2026-11-22
+stand: 2026-11-25
 ---
 
 # Entscheidungen
@@ -607,3 +607,24 @@ und der Termin fehlte im Statusblock); den Erledigt-Zustand aus den Board-Karten
 gibt).
 
 **Grenze.** `erledigt` wird von Hand gesetzt; die Automatik erkennt es nicht selbst.
+
+## 2026-11-25 — sync_pull.sh statt Pull in daily.sh
+
+**Entscheidung.** Der Sitzungsbeginn zieht den Stand mit `Wissen/_tools/sync_pull.sh`:
+`git fetch origin main`, Vergleich über `FETCH_HEAD`, danach nur `git merge --ff-only`.
+Das Skript committet, pusht und stasht nichts; ein unsauberes Arbeitsverzeichnis bricht es
+mit Exit 2 ab. `daily.sh` und `daily_guard.sh` bleiben ohne Pull und bestimmen die
+Repository-Wurzel jetzt über `git rev-parse --show-toplevel` statt über `cd "$DIR/../.."`.
+
+**Grund.** Der Cloud-Workspace ist eine eigene Kopie des Repositorys: Ein Push vom Rechner
+erscheint erst nach einem Fetch, deshalb gehört der Pull an den Anfang einer Sitzung und
+nicht in den Tageslauf. `daily.sh` läuft auch in GitHub Actions auf einem Checkout mit
+losem HEAD (`actions/checkout`); ein Merge würde den Lauf dort abbrechen. `cd "$DIR/../.."`
+setzt voraus, dass das Skript genau zwei Ebenen unter der Wurzel liegt, und zeigt bei jedem
+anderen Ort aus dem Repository heraus.
+
+**Verworfen.** Pull in `daily.sh` (bricht den Actions-Lauf mit losem HEAD ab); `git pull`
+ohne `--ff-only` (erzeugt bei auseinandergelaufenen Ständen einen Merge-Commit, den niemand
+geschrieben hat); automatisches Stashen unfertiger Änderungen (versteckt Arbeit und
+überschreibt sie beim nächsten Schritt); Wurzel weiter über `../..` (bricht, sobald das
+Skript in `tools/` oder tiefer liegt).

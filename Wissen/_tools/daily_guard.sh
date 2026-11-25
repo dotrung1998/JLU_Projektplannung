@@ -10,9 +10,16 @@
 set -uo pipefail
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$DIR/../.." || exit 1
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
+# Wurzel über Git bestimmen, nicht über ../..: liegt das Skript woanders, würde
+# ../.. aus dem Repository herauszeigen.
+if ! ROOT="$(git -C "$DIR" rev-parse --show-toplevel 2>/dev/null)"; then
+  echo "daily_guard: $DIR liegt in keinem Git-Repository." >&2
+  exit 1
+fi
+cd "$ROOT" || exit 1
 
 LOG="$DIR/daily.log"
 TODAY="$(date '+%Y-%m-%d')"

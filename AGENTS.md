@@ -19,17 +19,28 @@ Gruppenprojekt: **KI-gestützte vs. manuelle Meetingdokumentation** (Gruppe 11).
 | `00_Materialien/` | **Quelle.** Kursmaterial: Übungszettel, Conceptboard-Exporte, Portfoliovorlage, Messplan, Schablonen. Unverändert lassen. |
 | `Lecture_07-MDA-15_Projektplanung_Data_Analytics/` | **Quelle.** Wöchentliche Abgabeordner `01_Woche` … `10_Woche_Gesamt`. Unverändert lassen. |
 | `Wissen/` | **Gedächtnis.** Obsidian-Vault mit Start, Kurs, Sitzungen, Gruppe, Portfolio, Plan. |
-| `Wissen/_tools/` | `ingest.py`, `board_sync.py`, `daily.sh` — Einlesen und Statusfortschreibung. |
+| `Wissen/_tools/` | `sync_pull.sh` (Sitzungsbeginn), `ingest.py`, `board_sync.py`, `daily.sh`, `daily_guard.sh` — Stand ziehen, Einlesen, Statusfortschreibung. |
 
 `JLU Spezializierungsmodul/` ist ein fremdes Projekt und wird **nicht** eingelesen.
 
 ## Pflichtschritte am Anfang jeder Sitzung
 
 ```bash
+bash "Wissen/_tools/sync_pull.sh"      # main per Fast-Forward vorziehen
 python3 Wissen/_tools/ingest.py        # neue/geänderte Quellen einlesen
 python3 Wissen/_tools/board_sync.py    # Board und Fristen fortschreiben
 cat "Wissen/00 Start/Neu seit letztem Lauf.md"
 ```
+
+Der erste Schritt steht bewusst vor dem Einlesen: `ingest.py` muss auf dem neuesten Stand
+laufen. `sync_pull.sh` holt nur und spult nur per Fast-Forward vor — es committet, pusht
+und stasht nichts; ein unsauberes Arbeitsverzeichnis bricht es mit Exit 2 ab. Kann der
+Cloud-Workspace nicht selbst fetchen, vorher über die Git-Integration fetchen und
+`--no-fetch` übergeben.
+
+Die Dateien im Repository sind die Quelle der Wahrheit; die Kopie im Skill
+`cloud-session-sync` dient nur dazu, ein anderes Repository aufzusetzen. Weicht beides ab,
+wird zuerst das Skript hier geändert und committet, danach der Skill.
 
 Danach `Start.md` und `Status.md` lesen und erst dann arbeiten.
 

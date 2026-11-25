@@ -1,12 +1,25 @@
 ---
 titel: Điểm vào (VI)
-stand: 2026-11-22
+stand: 2026-11-25
 ---
 
 # Điểm vào (VI) — Projektplanung Data Analytics
 
 Trang này để định hướng nhanh bằng tiếng Việt. Nội dung chuyên môn trong vault bằng
 tiếng Đức để dùng lại trực tiếp cho bài nộp.
+
+## Bắt đầu phiên
+
+Trước khi đọc hay sửa gì, chạy bước này để làm việc trên `main` mới nhất:
+
+```bash
+bash "Wissen/_tools/sync_pull.sh"
+```
+
+Script chỉ `fetch` rồi fast-forward, **không** commit, **không** push, **không** stash.
+Working tree còn thay đổi chưa commit thì nó dừng với exit 2 và in danh sách file — commit
+hoặc stash trước rồi chạy lại. Nếu cloud workspace không tự fetch được: fetch qua
+Git-Integration rồi chạy `bash "Wissen/_tools/sync_pull.sh" --no-fetch`.
 
 ## Đây là gì
 

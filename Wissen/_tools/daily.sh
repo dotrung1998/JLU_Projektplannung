@@ -5,10 +5,19 @@
 set -uo pipefail
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$DIR/../.." || exit 1
 
 # launchd startet mit minimalem PATH; pdftotext und pandoc liegen unter Homebrew.
+# PATH muss vor dem ersten git-Aufruf stehen, sonst findet ein Lauf unter launchd
+# das Programm nicht.
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
+# Wurzel über Git bestimmen, nicht über ../..: liegt das Skript woanders, würde
+# ../.. aus dem Repository herauszeigen.
+if ! ROOT="$(git -C "$DIR" rev-parse --show-toplevel 2>/dev/null)"; then
+  echo "daily: $DIR liegt in keinem Git-Repository." >&2
+  exit 1
+fi
+cd "$ROOT" || exit 1
 
 LOG="$DIR/daily.log"
 PY="$(command -v python3 || echo /usr/bin/python3)"
